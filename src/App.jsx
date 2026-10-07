@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from '/src/pages/Contact';
-import Footer from './component/Footer'
+import Footer from '/src/component/Footer'
 
 const App = () => {
   return (
