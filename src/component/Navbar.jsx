@@ -10,7 +10,7 @@ const Navbar = () => {
 
       {/* Top Bar */}
       <div className="topbar py-2">
-        <div className="container">
+        <div className="container-xl">
           <div className="d-flex justify-content-center justify-content-md-between align-items-center small">
 
             <div className="d-flex align-items-center gap-2">
@@ -45,14 +45,14 @@ const Navbar = () => {
 
       {/* Main Navbar */}
       <nav className="navbar navbar-expand-lg bg-white shadow-sm py-2 sticky-top">
-        <div className="container">
+        <div className="container-xl">
 
           {/* Logo */}
-          <Link className="navbar-brand col-lg-1 col-md-3 col-sm-4 col-5" to="/">
+          <Link className="navbar-brand col-lg-1 col-md-2 col-sm-3 col-4" to="/">
             <img
               src="/img/logo.jpg"
               alt="PILCO"
-              className="navbar-logo img-fluid"
+              className="navbar-logo img-fluid w-75"
             />
           </Link>
 

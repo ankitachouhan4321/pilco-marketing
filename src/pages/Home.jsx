@@ -50,6 +50,67 @@ const Counter = ({ end, suffix = "+", duration = 1800 }) => {
 };
 
 
+const brands = [
+    {
+        id: 1,
+        name: "Brand 1",
+        logo: "/img/brand/1.png",
+    },
+    {
+        id: 2,
+        name: "Brand 2",
+        logo: "/img/brand/2.png",
+    },
+    {
+        id: 3,
+        name: "Brand 3",
+        logo: "/img/brand/3.png",
+    },
+    {
+        id: 4,
+        name: "Brand 4",
+        logo: "/img/brand/4.png",
+    },
+    {
+        id: 5,
+        name: "Brand 5",
+        logo: "/img/brand/5.png",
+    },
+
+    {
+        id: 6,
+        name: "Brand 6",
+        logo: "/img/brand/6.png",
+    },
+
+    {
+        id: 7,
+        name: "Brand 7",
+        logo: "/img/brand/7.png",
+    },
+
+    {
+        id: 8,
+        name: "Brand 8",
+        logo: "/img/brand/8.png",
+    },
+
+    {
+        id: 9,
+        name: "Brand 9",
+        logo: "/img/brand/9.png",
+    },
+    {
+        id: 10,
+        name: "Brand 10",
+        logo: "/img/brand/10.png",
+    },
+
+
+];
+const duplicatedBrands = [...brands, ...brands];
+
+
 const Home = () => {
     return (
         <>
@@ -57,7 +118,7 @@ const Home = () => {
             <section className="pilco-hero">
                 <div className="pilco-hero-overlay"></div>
 
-                <div className="container position-relative h-100">
+                <div className="container-lg position-relative h-100">
                     <div className="row h-100 align-items-center">
 
                         <div className=" col-md-12">
@@ -446,7 +507,7 @@ const Home = () => {
                     <div className="row align-items-center g-5">
 
                         {/* LEFT CONTENT */}
-                        <div className="col-lg-5 col-md-6">
+                        <div className="col-lg-5 col-md-6" data-aos="fade-right" >
                             <div className="content">
 
                                 <div className="top-head mb-3">
@@ -499,7 +560,7 @@ const Home = () => {
                                 <div className="img-shadow"></div>
 
                                 {/* Main image */}
-                                <div className="img-box">
+                                <div className="img-box" data-aos="zoom-in" >
                                     <img
                                         src="/img/about-sec.jpg"
                                         alt="PILCO Industrial Factory"
@@ -539,7 +600,7 @@ const Home = () => {
                     <div className="row g-2">
 
                         {/* ================= LEFT COLUMN ================= */}
-                        <div className="col-md-6 left">
+                        <div className="col-md-6 left" data-aos="fade-right" >
 
                             <div className="content">
 
@@ -583,7 +644,7 @@ const Home = () => {
 
 
                         {/* ================= RIGHT COLUMN ================= */}
-                        <div className="col-md-6 right">
+                        <div className="col-md-6 right" data-aos="fade-left">
 
                             <div className="content rounded-3">
 
@@ -629,7 +690,7 @@ const Home = () => {
 
 
                         {/* ================= FULL WIDTH ================= */}
-                        <div className="col-12">
+                        <div className="col-12" data-aos="fade-up">
 
                             <div className="content mt-2">
 
@@ -694,7 +755,7 @@ const Home = () => {
 
                         {/* 01 */}
                         <div className="col-lg-4 col-md-6">
-                            <div className="choose-item d-flex gap-3">
+                            <div className="choose-item d-flex gap-3" data-aos="fade-up">
 
                                 <div className="choose-icon">
                                     <i className="bi bi-building"></i>
@@ -715,7 +776,7 @@ const Home = () => {
 
                         {/* 02 */}
                         <div className="col-lg-4 col-md-6">
-                            <div className="choose-item d-flex gap-3">
+                            <div className="choose-item d-flex gap-3" data-aos="fade-up">
 
                                 <div className="choose-icon">
                                     <i className="bi bi-gear-wide-connected"></i>
@@ -735,7 +796,7 @@ const Home = () => {
 
                         {/* 03 */}
                         <div className="col-lg-4 col-md-6">
-                            <div className="choose-item d-flex gap-3">
+                            <div className="choose-item d-flex gap-3" data-aos="fade-up">
 
                                 <div className="choose-icon">
                                     <i className="bi bi-box-seam"></i>
@@ -755,7 +816,7 @@ const Home = () => {
 
                         {/* 04 */}
                         <div className="col-lg-4 col-md-6">
-                            <div className="choose-item d-flex gap-3">
+                            <div className="choose-item d-flex gap-3" data-aos="fade-up">
 
                                 <div className="choose-icon">
                                     <i className="bi bi-shield-check"></i>
@@ -775,7 +836,7 @@ const Home = () => {
 
                         {/* 05 */}
                         <div className="col-lg-4 col-md-6">
-                            <div className="choose-item d-flex gap-3">
+                            <div className="choose-item d-flex gap-3" data-aos="fade-up">
 
                                 <div className="choose-icon">
                                     <i className="bi bi-grid-3x3-gap"></i>
@@ -795,7 +856,7 @@ const Home = () => {
 
                         {/* 06 */}
                         <div className="col-lg-4 col-md-6">
-                            <div className="choose-item d-flex gap-3">
+                            <div className="choose-item d-flex gap-3" data-aos="fade-up">
 
                                 <div className="choose-icon">
                                     <i className="bi bi-sliders"></i>
@@ -816,7 +877,7 @@ const Home = () => {
 
                         {/* 07 */}
                         <div className="col-lg-4 col-md-6">
-                            <div className="choose-item d-flex gap-3">
+                            <div className="choose-item d-flex gap-3" data-aos="fade-up">
 
                                 <div className="choose-icon">
                                     <i className="bi bi-truck"></i>
@@ -836,7 +897,7 @@ const Home = () => {
 
                         {/* 08 */}
                         <div className="col-lg-4 col-md-6">
-                            <div className="choose-item d-flex gap-3">
+                            <div className="choose-item d-flex gap-3" data-aos="fade-up">
 
                                 <div className="choose-icon">
                                     <i className="bi bi-lightbulb"></i>
@@ -856,7 +917,7 @@ const Home = () => {
 
                         {/* 09 */}
                         <div className="col-lg-4 col-md-6">
-                            <div className="choose-item d-flex gap-3">
+                            <div className="choose-item d-flex gap-3" data-aos="fade-up">
 
                                 <div className="choose-icon">
                                     <i className="bi bi-headset"></i>
@@ -879,6 +940,7 @@ const Home = () => {
             </section>
 
             {/* why choose end */}
+
 
             {/* industries start */}
             <section id="industries" className="py-lg-5 py-3">
@@ -918,7 +980,7 @@ const Home = () => {
                             }}
                             breakpoints={{
                                 320: {
-                                    slidesPerView: 2,
+                                    slidesPerView: 1,
                                 },
                                 576: {
                                     slidesPerView: 2,
@@ -954,7 +1016,7 @@ const Home = () => {
                             <SwiperSlide>
                                 <div className="card even" >
                                     <img
-                                        src="/img/ind-1.jpg"
+                                        src="/img/ind-2.jpg"
                                         className="card-img-top"
                                         alt="Product"
                                     />
@@ -970,7 +1032,7 @@ const Home = () => {
                             <SwiperSlide>
                                 <div className="card" >
                                     <img
-                                        src="/img/ind-1.jpg"
+                                        src="/img/ind-3.jpg"
                                         className="card-img-top"
                                         alt="Product"
                                     />
@@ -986,7 +1048,7 @@ const Home = () => {
                             <SwiperSlide>
                                 <div className="card even" >
                                     <img
-                                        src="/img/ind-1.jpg"
+                                        src="/img/ind-4.jpg"
                                         className="card-img-top"
                                         alt="Product"
                                     />
@@ -1000,9 +1062,9 @@ const Home = () => {
 
                             {/* 1 */}
                             <SwiperSlide>
-                                <div className="card even" >
+                                <div className="card " >
                                     <img
-                                        src="/img/ind-1.jpg"
+                                        src="/img/ind-5.jpg"
                                         className="card-img-top"
                                         alt="Product"
                                     />
@@ -1018,7 +1080,7 @@ const Home = () => {
                             <SwiperSlide>
                                 <div className="card even" >
                                     <img
-                                        src="/img/ind-1.jpg"
+                                        src="/img/ind-6.jpg"
                                         className="card-img-top"
                                         alt="Product"
                                     />
@@ -1032,9 +1094,9 @@ const Home = () => {
 
                             {/* 1 */}
                             <SwiperSlide>
-                                <div className="card even" >
+                                <div className="card " >
                                     <img
-                                        src="/img/ind-1.jpg"
+                                        src="/img/ind-7.jpg"
                                         className="card-img-top"
                                         alt="Product"
                                     />
@@ -1050,7 +1112,7 @@ const Home = () => {
                             <SwiperSlide>
                                 <div className="card even" >
                                     <img
-                                        src="/img/ind-1.jpg"
+                                        src="/img/ind-8.jpg"
                                         className="card-img-top"
                                         alt="Product"
                                     />
@@ -1064,9 +1126,9 @@ const Home = () => {
 
                             {/* 1 */}
                             <SwiperSlide>
-                                <div className="card even" >
+                                <div className="card " >
                                     <img
-                                        src="/img/ind-1.jpg"
+                                        src="/img/ind-9.jpg"
                                         className="card-img-top"
                                         alt="Product"
                                     />
@@ -1082,7 +1144,7 @@ const Home = () => {
                             <SwiperSlide>
                                 <div className="card even" >
                                     <img
-                                        src="/img/ind-1.jpg"
+                                        src="/img/ind-10.jpg"
                                         className="card-img-top"
                                         alt="Product"
                                     />
@@ -1095,9 +1157,9 @@ const Home = () => {
                             </SwiperSlide>
                             {/* 1 */}
                             <SwiperSlide>
-                                <div className="card even" >
+                                <div className="card " >
                                     <img
-                                        src="/img/ind-1.jpg"
+                                        src="/img/ind-11.jpg"
                                         className="card-img-top"
                                         alt="Product"
                                     />
@@ -1113,7 +1175,7 @@ const Home = () => {
                             <SwiperSlide>
                                 <div className="card even" >
                                     <img
-                                        src="/img/ind-1.jpg"
+                                        src="/img/ind-12.jpg"
                                         className="card-img-top"
                                         alt="Product"
                                     />
@@ -1420,8 +1482,8 @@ const Home = () => {
 
             {/* stats-sec start */}
 
-            <section id="stats-sec" className="py-5">
-                <div className="container py-lg-5 py-4">
+            <section id="stats-sec" className="py-lg-5 py-3" >
+                <div className="container-lg py-lg-5 py-3">
 
                     {/* TOP COUNTER */}
                     <div className="text-center stats-content mx-auto">
@@ -1448,7 +1510,7 @@ const Home = () => {
                     {/* BOTTOM COUNTERS */}
                     <div className="row justify-content-center text-center g-4 mt-lg-4 mt-3">
 
-                        <div className="col-lg-3 col-md-4 col-6">
+                        <div className="col-lg-3 col-sm-4 col-6">
                             <div className="stat-item">
 
                                 <div className="stat-number">
@@ -1461,7 +1523,7 @@ const Home = () => {
                         </div>
 
 
-                        <div className="col-lg-3 col-md-4 col-6">
+                        <div className="col-lg-3 col-sm-4 col-6">
                             <div className="stat-item">
 
                                 <div className="stat-number">
@@ -1474,7 +1536,7 @@ const Home = () => {
                         </div>
 
 
-                        <div className="col-lg-3 col-md-4 col-6">
+                        <div className="col-lg-3 col-sm-4 col-6">
                             <div className="stat-item">
 
                                 <div className="stat-number">
@@ -1499,7 +1561,7 @@ const Home = () => {
 
                     <div className="row g-3 justify-content-center">
 
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6">
+                        <div className="col-xl-2 col-lg-3 col-md-4 col-6" data-aos="fade-up" data-aos-duration="300">
                             <div className="usp-card text-center h-100">
                                 <div className="usp-icon">
                                     <i className="bi bi-tags"></i>
@@ -1514,7 +1576,7 @@ const Home = () => {
                         </div>
 
 
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6">
+                        <div className="col-xl-2 col-lg-3 col-md-4 col-6" data-aos="fade-up" data-aos-duration="500">
                             <div className="usp-card text-center h-100">
                                 <div className="usp-icon">
                                     <i className="bi bi-patch-check"></i>
@@ -1529,7 +1591,7 @@ const Home = () => {
                         </div>
 
 
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6">
+                        <div className="col-xl-2 col-lg-3 col-md-4 col-6" data-aos="fade-up" data-aos-duration="1000">
                             <div className="usp-card text-center h-100">
                                 <div className="usp-icon">
                                     <i className="bi bi-emoji-smile"></i>
@@ -1544,7 +1606,7 @@ const Home = () => {
                         </div>
 
 
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6">
+                        <div className="col-xl-2 col-lg-3 col-md-4 col-6" data-aos="fade-up" data-aos-duration="1500">
                             <div className="usp-card text-center h-100">
                                 <div className="usp-icon">
                                     <i className="bi bi-box-seam"></i>
@@ -1559,7 +1621,7 @@ const Home = () => {
                         </div>
 
 
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6">
+                        <div className="col-xl-2 col-lg-3 col-md-4 col-6" data-aos="fade-up" data-aos-duration="2500">
                             <div className="usp-card text-center h-100">
                                 <div className="usp-icon">
                                     <i className="bi bi-headset"></i>
@@ -1574,7 +1636,7 @@ const Home = () => {
                         </div>
 
 
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-6">
+                        <div className="col-xl-2 col-lg-3 col-md-4 col-6" data-aos="fade-up" data-aos-duration="3000">
                             <div className="usp-card text-center h-100">
                                 <div className="usp-icon">
                                     <i className="bi bi-truck"></i>
@@ -1593,6 +1655,42 @@ const Home = () => {
                 </div>
             </section>
             {/* usp-sec end */}
+
+            <section className="pilco-brand-section">
+                <div className="pilco-brand-container">
+
+                    <div className="pilco-brand-heading">
+
+                        <h2 className='heading'>
+                            Brands That <strong>Trust Pilco</strong>
+                        </h2>
+
+                        <p>
+                            Trusted by businesses across industries for reliable storage,
+                            material handling and warehouse solutions.
+                        </p>
+                    </div>
+
+                    <div className="pilco-logo-slider">
+                        <div className="pilco-logo-track">
+                            {duplicatedBrands.map((brand, index) => (
+                                <div
+                                    className="pilco-logo-card"
+                                    key={`${brand.id}-${index}`}
+                                >
+                                    <img
+                                        src={brand.logo}
+                                        alt={brand.name}
+                                        loading="lazy"
+                                    />
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
 
         </>
     )
