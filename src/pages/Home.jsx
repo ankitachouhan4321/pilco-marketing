@@ -64,7 +64,7 @@ const Home = () => {
                             <div className="pilco-hero-content">
 
                                 <span className="pilco-hero-tag">
-                                    Pilco Storage Systems
+                                    Pilco Storage Systems dfd
                                 </span>
 
                                 <h1>
