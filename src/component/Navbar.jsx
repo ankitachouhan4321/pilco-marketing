@@ -141,12 +141,6 @@ const Navbar = () => {
               </li> */}
 
 
-              <li className="nav-item">
-                <Link className="nav-link px-lg-3" to="/industries">
-                  Industries
-                </Link>
-              </li>
-
 
               <li className="nav-item">
                 <Link className="nav-link px-lg-3" to="/gallery">
