@@ -5,8 +5,6 @@
   --pilco-primary-dark: #004974;
   --pilco-text: #17333d;
   --pilco-light: #e8fbff;
-  
-
 }
 
 html,
@@ -129,12 +127,7 @@ body {
   letter-spacing: 0.5px;
   border-radius: 2px !important;
   transition: 0.3s;
-  clip-path: polygon(
-    0% 0%,
-    95% 0%,
-    100% 100%,
-    5% 100%
-  );
+  clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);
 }
 
 .pilco-btn:hover {
@@ -361,6 +354,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.5px;
   color: var(--pilco-primary-dark);
+  text-transform: capitalize;
 }
 
 .heading {
@@ -1796,12 +1790,9 @@ body {
 }
 /* pilco-brand-section end */
 
-
-
 /* ===================================
    PILCO CONTACT SECTION
 =================================== */
-
 
 .pilco-contact-section .container {
   position: relative;
@@ -1865,12 +1856,7 @@ body {
   background: var(--pilco-primary-dark);
   font-size: 20px;
   border-radius: 10px;
-  clip-path: polygon(
-    0% 0%,
-    95% 0%,
-    100% 100%,
-    5% 100%
-  );
+  clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);
   transition: all 0.3s ease;
 }
 
@@ -1957,8 +1943,6 @@ body {
   margin-bottom: 30px;
 }
 
-
-
 .pilco-form-header p {
   color: #6b7d87;
   font-size: 14px;
@@ -2041,8 +2025,10 @@ body {
   font-weight: 700;
   letter-spacing: 0.3px;
   cursor: pointer;
-  
-  transition: background 0.3s ease, transform 0.3s ease;
+
+  transition:
+    background 0.3s ease,
+    transform 0.3s ease;
 }
 
 .pilco-contact-submit:hover:not(:disabled) {
@@ -2092,7 +2078,6 @@ body {
   border-radius: 8px;
 }
 
-
 /* ===================================
    PILCO CONTACT DETAILS
 =================================== */
@@ -2136,18 +2121,12 @@ body {
   color: var(--pilco-primary-dark);
   font-size: 19px;
 
-  clip-path: polygon(
-    0% 0%,
-    95% 0%,
-    100% 100%,
-    5% 100%
-  );
+  clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);
 
   transition: all 0.3s ease;
 }
 
-.pilco-contact-info-item:hover
-.pilco-contact-info-icon {
+.pilco-contact-info-item:hover .pilco-contact-info-icon {
   background: var(--pilco-primary);
   color: #ffffff;
 }
@@ -2194,7 +2173,6 @@ body {
     margin-top: 25px;
     padding-top: 25px;
   }
-
 
   .pilco-contact-info-item {
     padding: 15px;
@@ -2301,16 +2279,11 @@ body {
 
 /* breadcrumb start */
 
-
 /* PILCO BREADCRUMB */
 
 .pilco-breadcrumb-section {
   padding: 22px 0;
-  background: linear-gradient(
-    90deg,
-    #f4fcfe 0%,
-    #e8fbff 100%
-  );
+  background: linear-gradient(90deg, #f4fcfe 0%, #e8fbff 100%);
   border-bottom: 1px solid #d5edf3;
 }
 
@@ -2353,12 +2326,7 @@ body {
   padding: 10px 23px;
   padding-left: 28px;
 
-  clip-path: polygon(
-    0% 0%,
-    95% 0%,
-    100% 100%,
-    5% 100%
-  );
+  clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);
 }
 
 .pilco-breadcrumb .breadcrumb-item.active span {
@@ -2390,5 +2358,341 @@ body {
   }
 }
 
-
 /* breadcrumb-end */
+
+:root {
+  --pilco-primary: #08b7d3;
+  --pilco-primary-dark: #004974;
+  --pilco-text: #17333d;
+  --pilco-light: #e8fbff;
+}
+
+/* REAL IMAGE STATS BACKGROUND */
+
+.pilco-stats-section {
+  position: relative;
+  isolation: isolate;
+  padding: 85px 0;
+  overflow: hidden;
+  background-image: url("https://images.unsplash.com/photo-1661156295677-ce91c410be9b?auto=format&fit=crop&w=1920&q=85");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+/* DARK OVERLAY */
+
+.pilco-stats-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+
+ background: linear-gradient(105deg, rgb(0 0 0 / 13%) 0%, rgb(0 0 0 / 37%) 48%, rgb(0 0 0 / 36%) 100%);
+}
+
+
+/* ANGLED PILCO DESIGN */
+
+.pilco-stats-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -55px;
+  width: 170px;
+  height: 100%;
+  z-index: 0;
+  background: rgba(8, 183, 211, 0.18);
+  clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);
+}
+
+.pilco-stats-container {
+  position: relative;
+  z-index: 1;
+}
+
+/* HEADING */
+
+/* GLASS STYLE STATS CARDS */
+
+.pilco-stats-card {
+  position: relative;
+  height: 100%;
+  padding: 28px 15px;
+  text-align: center;
+
+  /* Simple transparent background */
+  background: var(--pilco-primary);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+
+  transition: all 0.3s ease;
+}
+
+/* Simple hover */
+
+.pilco-stats-card:hover {
+  background: rgba(0, 73, 116, 0.85);
+  border-color: #08b7d3;
+}
+
+/* ICON - NO BOX */
+
+.pilco-stats-icon {
+  width: auto;
+  height: auto;
+  margin: 0 auto 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+  color: var(--pilco-primary-dark);
+  font-size: 27px;
+
+  clip-path: none;
+}
+.pilco-stats-card:hover .pilco-stats-icon{
+    color:white;
+
+}
+
+/* NUMBER */
+
+.pilco-stats-card h3 {
+  color: #ffffff;
+  font-size: clamp(30px, 3vw, 42px);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+/* LABEL */
+
+.pilco-stats-card p {
+  color: #e1f1f7;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+/* SMALL CYAN LINE */
+
+.pilco-stats-line {
+  width: 30px;
+  height: 2px;
+  margin: 16px auto 0;
+  background: #08b7d3;
+}
+
+/* MOBILE */
+
+@media (max-width: 767px) {
+  .pilco-stats-card {
+    padding: 22px 12px;
+  }
+
+  .pilco-stats-card h3 {
+    font-size: 28px;
+  }
+
+  .pilco-stats-icon {
+    font-size: 23px;
+  }
+
+  .pilco-stats-card p {
+    font-size: 12px;
+  }
+}
+
+/* COMMON SECTION STYLING */
+
+.pilco-section-subtitle {
+  color: var(--pilco-primary);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+/* MANUFACTURING */
+
+.pilco-manufacturing {
+  background: #ffffff;
+}
+
+.pilco-manufacturing-content p {
+  color: #637580;
+  font-size: 15px;
+  line-height: 1.85;
+  margin-bottom: 15px;
+}
+
+/* MANUFACTURING POINTS */
+
+.pilco-manufacturing-points {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.pilco-manufacturing-points div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--pilco-text);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.pilco-manufacturing-points i {
+  color: var(--pilco-primary);
+  font-size: 13px;
+}
+
+/* MANUFACTURING IMAGE */
+
+.pilco-manufacturing-image {
+  position: relative;
+  padding: 0 14px 14px 0;
+}
+
+.pilco-manufacturing-image::before {
+  content: "";
+  position: absolute;
+  inset: 18px 0 0 18px;
+  background: var(--pilco-primary);
+  clip-path: polygon(
+    0% 0%,
+    95% 0%,
+    100% 100%,
+    5% 100%
+  );
+}
+
+.pilco-manufacturing-image img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  clip-path: polygon(
+    0% 0%,
+    95% 0%,
+    100% 100%,
+    5% 100%
+  );
+}
+
+/* EXPERIENCE BADGE */
+
+.pilco-manufacturing-badge {
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+  background: var(--pilco-primary-dark);
+  color: #ffffff;
+  padding: 17px 23px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  z-index: 2;
+}
+
+.pilco-manufacturing-badge strong {
+  font-size: 20px;
+  font-weight: 750;
+}
+
+.pilco-manufacturing-badge span {
+  font-size: 11px;
+  color: #d8ecf3;
+}
+
+/* MISSION & VISION */
+
+.pilco-mission-vision {
+  background: var(--pilco-light);
+}
+
+.pilco-mv-heading p {
+  color: #657984;
+  font-size: 14px;
+  margin: 12px auto 0;
+  max-width: 550px;
+  line-height: 1.7;
+}
+
+/* SIMPLE SIDE-BY-SIDE BLOCKS */
+
+.pilco-mv-item {
+  height: 100%;
+  padding: 10px 35px 10px 0;
+}
+
+.pilco-mv-vision {
+  border-left: 1px solid #b7dbe4;
+  padding-left: 40px;
+}
+
+.pilco-mv-icon {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  color: var(--pilco-primary);
+  font-size: 23px;
+  margin-bottom: 20px;
+  clip-path: polygon(
+    0% 0%,
+    95% 0%,
+    100% 100%,
+    5% 100%
+  );
+}
+
+.pilco-mv-item h3 {
+  color: var(--pilco-primary-dark);
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+.pilco-mv-item p {
+  color: #5b717d;
+  font-size: 15px;
+  line-height: 1.85;
+  margin: 0;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 767px) {
+  .pilco-manufacturing-image img {
+    height: 280px;
+  }
+
+  .pilco-manufacturing-points {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .pilco-mv-item {
+    padding: 0 5px;
+  }
+
+  .pilco-mv-vision {
+    border-left: none;
+    border-top: 1px solid #b7dbe4;
+    padding-top: 30px;
+    margin-top: 12px;
+  }
+
+  .pilco-mv-heading {
+    margin-bottom: 30px !important;
+  }
+}
