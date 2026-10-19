@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
-import Product from "./products/Product";
+import Product from "./prod/Product";
 
 import Footer from "./component/footer";
 
