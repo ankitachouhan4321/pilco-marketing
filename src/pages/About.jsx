@@ -33,7 +33,7 @@ const About = () => {
             <ol className="breadcrumb pilco-breadcrumb mb-0">
               <li className="breadcrumb-item">
                 <a href="/">
-                  <i className="fa-solid fa-house me-2"></i>
+                  <i className="fa-solid fa-house" aria-hidden="true"></i>
                   Home
                 </a>
               </li>
@@ -314,15 +314,12 @@ const About = () => {
                 {/* Main image */}
                 <div className="img-box" data-aos="zoom-in">
                   <img
-                    src="/img/manuf.png"
+                    src="/img/manuf.jpg"
                     alt="PILCO Industrial Factory"
                     className="img-fluid"
                   />
                 </div>
-
-               
               </div>
-
             </div>
           </div>
         </div>

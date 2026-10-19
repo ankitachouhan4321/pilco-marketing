@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className="col-lg-4 text-lg-end">
                     <a
                         href="/contact"
-                        className="btn footer-contact-btn px-4 py-3"
+                        className="btn pilco-btn px-4 py-3 mt-3"
                     >
                         CONTACT US
                         <i className="bi bi-arrow-right ms-2"></i>

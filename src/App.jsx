@@ -1,12 +1,13 @@
-import React from 'react';
-import Navbar from './component/Navbar';
-import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Gallery from './pages/Gallery';
+import React from "react";
+import Navbar from "./component/Navbar";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Gallery from "./pages/Gallery";
+import Product from "./products/Product";
 
-import Footer from './component/footer';
+import Footer from "./component/footer";
 
 const App = () => {
   return (
@@ -16,8 +17,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/product" element={<Product />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
 
       <Footer />
@@ -26,7 +28,6 @@ const App = () => {
 };
 
 export default App;
-
 
 // https://www.pilcomarketing.com/
 
