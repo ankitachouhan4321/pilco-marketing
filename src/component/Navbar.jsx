@@ -1,5 +1,5 @@
 import react from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 import React from 'react'
@@ -80,55 +80,80 @@ const Navbar = () => {
                 </Link>
               </li>
 
-              <li className="nav-item">
-                <Link className="nav-link px-lg-3" to="/Product">
-                  Our Products
-                </Link>
-              </li>
 
-              {/* Products Dropdown */}
-              {/* <li className="nav-item dropdown">
+              {/* Products Mega Dropdown */}
+              <li className="nav-item dropdown pilco-mega-dropdown">
                 <button
                   className="nav-link dropdown-toggle px-lg-3 bg-transparent border-0"
+                  type="button"
                   data-bs-toggle="dropdown"
+                  data-bs-auto-close="outside"
+                  aria-expanded="false"
                 >
-                  Products
+                  Our Products
                 </button>
 
-                <ul className="dropdown-menu border-0 shadow">
+                <div className="dropdown-menu pilco-mega-menu border-0 shadow-lg">
+                  <div className="pilco-mega-menu-inner">
 
-                  <li>
-                    <Link
-                      className="dropdown-item py-2"
-                      to="/products/product-1"
-                    >
-                      Product Category 1
-                    </Link>
-                  </li>
+                    <div className="pilco-mega-grid">
 
-                  <li>
-                    <Link
-                      className="dropdown-item py-2"
-                      to="/products/product-2"
-                    >
-                      Product Category 2
-                    </Link>
-                  </li>
+                      {[
+                       
+                        { name: "Plastic Pallets", link: "/plastic-pallets" },
+                        { name: "Cable Tray", link: "/cable-tray-fittings" },
+                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
+                        { name: "Cable Tray", link: "/cable-tray" },
+                        { name: "Plastic Pallets", link: "/plastic-pallets" },
+                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
+                        { name: "Cable Tray", link: "/cable-tray" },
+                        { name: "Plastic Pallets", link: "/plastic-pallets" },
+                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
+                        { name: "Cable Tray", link: "/cable-tray" },
+                        { name: "Plastic Pallets", link: "/plastic-pallets" },
+                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
+                          { name: "Cable Tray", link: "/cable-tray" },
+                        { name: "Plastic Pallets", link: "/plastic-pallets" },
+                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
+                        { name: "Cable Tray", link: "/cable-tray" },
+                        { name: "Plastic Pallets", link: "/plastic-pallets" },
+                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
+                        { name: "Cable Tray", link: "/cable-tray" },
+                        { name: "Plastic Pallets", link: "/plastic-pallets" },
+                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
+                        { name: "Cable Tray", link: "/cable-tray" },
+                        { name: "Plastic Pallets", link: "/plastic-pallets" },
+                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
+                        { name: "Cable Tray", link: "/cable-tray" },
+                        { name: "Plastic Pallets", link: "/plastic-pallets" },
+                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
+                        { name: "Cable Tray", link: "/cable-tray" },
+                        { name: "Plastic Pallets", link: "/plastic-pallets" },
+                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
 
-                  <li>
-                    <Link
-                      className="dropdown-item py-2"
-                      to="/products/product-3"
-                    >
-                      Product Category 3
-                    </Link>
-                  </li>
 
-                </ul>
-              </li> */}
+                        // Add remaining category names and links here
+                        // { name: "Category Name", link: "/category-url" },
+
+                      ].map((item, index) => (
+                        <Link
+                          key={index}
+                          className="pilco-mega-item"
+                          to={item.link}
+                        >
+                          <span>{item.name}</span>
+
+                          <i className="bi bi-arrow-up-right"></i>
+                        </Link>
+                      ))}
+
+                    </div>
+                  </div>
+                </div>
+              </li>
 
               <li className="nav-item">
-                <Link className="nav-link px-lg-3" to="/gallery">
+                <Link className="nav-link px-lg-3" to="/">
                   Gallery
                 </Link>
               </li>
