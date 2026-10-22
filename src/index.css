@@ -6,7 +6,13 @@
   --pilco-text: #17333d;
   --pilco-light: #e8fbff;
 }
+html {
+  scroll-behavior: smooth;
+}
 
+#product-sec {
+  scroll-margin-top: 100px;
+}
 html,
 body {
   overflow-x: hidden;
@@ -2973,11 +2979,11 @@ body {
 
 .product-thumbnail.active,
 .product-thumbnail:hover {
-  border-color: #e0002b;
+  border-color: black;
 }
 
 .product-thumbnail:focus-visible {
-  outline: 2px solid #e0002b;
+  /* outline: 2px solid var(--pilco-primary); */
   outline-offset: 2px;
 }
 
@@ -3124,11 +3130,11 @@ body {
 }
 
 .product-enquiry-btn {
-  background: #e65025;
+  background:  #00d255;
 }
 
 .product-enquiry-btn:hover {
-  background: #00d255;
+  background: var(--pilco-primary-dark);
   color: #ffffff;
 }
 
@@ -3170,6 +3176,8 @@ body {
   margin: 12px 0 24px;
   font-weight: 400;
 }
+
+
 
 @media (max-width: 576px) {
   .product-short-description {

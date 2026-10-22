@@ -78,10 +78,10 @@ const About = () => {
                   across industries.
                 </p>
 
-                <a href="/about" className="btn pilco-btn px-4 py-3 mt-3">
+                {/* <a href="/about" className="btn pilco-btn px-4 py-3 mt-3">
                   DISCOVER MORE
                   <i className="bi bi-arrow-right ms-2"></i>
-                </a>
+                </a> */}
               </div>
             </div>
 

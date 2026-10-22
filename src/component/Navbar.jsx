@@ -18,19 +18,19 @@ const Navbar = () => {
 
             <div className="d-none d-md-flex align-items-center gap-4">
               <a
-                href="mailto:abc@gmail.com"
+                href="mailto:pilcoindia@gmail.com"
                 className="text-white text-decoration-none"
               >
                 <i className="bi bi-envelope-fill me-2"></i>
-                abc@gmail.com
+                pilcoindia@gmail.com
               </a>
 
               <a
-                href="tel:+918045804245"
+                href="tel:+919810074596"
                 className="text-white text-decoration-none"
               >
                 <i className="bi bi-telephone-fill me-2"></i>
-                +91 80458 04245
+                +91 98100 74596
               </a>
             </div>
           </div>
@@ -99,37 +99,35 @@ const Navbar = () => {
                     <div className="pilco-mega-grid">
 
                       {[
-                       
+
                         { name: "Plastic Pallets", link: "/plastic-pallets" },
-                        { name: "Cable Tray", link: "/cable-tray-fittings" },
-                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
-                        { name: "Cable Tray", link: "/cable-tray" },
-                        { name: "Plastic Pallets", link: "/plastic-pallets" },
-                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
-                        { name: "Cable Tray", link: "/cable-tray" },
-                        { name: "Plastic Pallets", link: "/plastic-pallets" },
-                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
-                        { name: "Cable Tray", link: "/cable-tray" },
-                        { name: "Plastic Pallets", link: "/plastic-pallets" },
-                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
-                          { name: "Cable Tray", link: "/cable-tray" },
-                        { name: "Plastic Pallets", link: "/plastic-pallets" },
-                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
-                        { name: "Cable Tray", link: "/cable-tray" },
-                        { name: "Plastic Pallets", link: "/plastic-pallets" },
-                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
-                        { name: "Cable Tray", link: "/cable-tray" },
-                        { name: "Plastic Pallets", link: "/plastic-pallets" },
-                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
-                        { name: "Cable Tray", link: "/cable-tray" },
-                        { name: "Plastic Pallets", link: "/plastic-pallets" },
-                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
-                        { name: "Cable Tray", link: "/cable-tray" },
-                        { name: "Plastic Pallets", link: "/plastic-pallets" },
-                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
-                        { name: "Cable Tray", link: "/cable-tray" },
-                        { name: "Plastic Pallets", link: "/plastic-pallets" },
-                        { name: "Hoist Duty Motors", link: "/hoist-duty-motors" },
+                        { name: "Cable Trays", link: "/cable-trays" },
+                        { name: "Warehouse Racks", link: "/warehouse-racks" },
+                        { name: "Plastic Crates", link: "/plastic-crates" },
+                        { name: "Industrial Storage Crates", link: "/industrial-storage-crates" },
+                        { name: "Industrial Pallets", link: "/industrial-pallets" },
+                        { name: "Storage Racks", link: "/storage-racks" },
+                        { name: "Heavy Duty Racks", link: "/heavy-duty-racks" },
+                        { name: "Vegetable Crates", link: "/vegetable-crates" },
+                        { name: "Cable Tray Fittings", link: "/cable-tray-fittings" },
+                        { name: "Plastic Dustbins", link: "/plastic-dustbins" },
+                        { name: "Work Platforms", link: "/work-platforms" },
+                        { name: "Wooden Pallets", link: "/wooden-pallets" },
+                        { name: "Pallet Racks", link: "/pallet-racks" },
+                        { name: "Strut Channels", link: "/strut-channels" },
+                        { name: "Prefabricated Steel Buildings", link: "/prefabricated-steel-buildings" },
+                        { name: "GI Threaded Rods", link: "/gi-threaded-rods" },
+                        { name: "Recycled Plastic Shuttering Pallets", link: "/recycled-plastic-shuttering-pallets" },
+                        { name: "Cable Ducts", link: "/cable-ducts" },
+                        { name: "Worker Lockers", link: "/worker-lockers" },
+                        { name: "Shuttering Plywood", link: "/shuttering-plywood" },
+                        { name: "Used Plastic Pallets", link: "/used-plastic-pallets" },
+                        { name: "Export Pallets", link: "/export-pallets" },
+                        { name: "Shed Structures", link: "/shed-structures" },
+                        { name: "Hand Pallet Trucks", link: "/hand-pallet-trucks" },
+                        { name: "Raceways", link: "/raceways" },
+                        { name: "Junction Boxes", link: "/junction-boxes" },
+                        { name: "New Items", link: "/new-items" },
 
 
                         // Add remaining category names and links here
@@ -152,11 +150,11 @@ const Navbar = () => {
                 </div>
               </li>
 
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link px-lg-3" to="/">
                   Gallery
                 </Link>
-              </li>
+              </li> */}
 
               <li className="nav-item">
                 <Link className="nav-link px-lg-3" to="/contact">

@@ -186,7 +186,9 @@ const ContactForm = () => {
                   <div className="pilco-contact-info-text">
                     <h4>Call Us</h4>
 
-                    <a href="tel:+918045804245">+91 80458 04245</a>
+                    <a href="tel:+919810074596">+91 98100 74596</a> /
+                    <a href="tel:+919711481181">+91 97114 81181</a> /
+                    <a href="tel:+919311175747">+91 93111 75747</a>
                   </div>
                 </div>
 
@@ -199,7 +201,7 @@ const ContactForm = () => {
                   <div className="pilco-contact-info-text">
                     <h4>Email Us</h4>
 
-                    <a href="mailto:abc@gmail.com">abc@gmail.com</a>
+                    <a href="mailto:pilcoindia@gmail.com">pilcoindia@gmail.com</a>
                   </div>
                 </div>
 

@@ -10,7 +10,12 @@ export const products = [
     name: "Plastic Pallets 1200×1000×136mm",
     model: "",
 
-    images: ["/img/Plastic-Pallets/1.png", "/img/Plastic-Pallets/1.1.png"],
+    images: [
+      "/img/Plastic-Pallets/1.png",
+      "/img/Plastic-Pallets/1.1.png",
+      "/img/Plastic-Pallets/1.2.png",
+      "/img/Plastic-Pallets/1.3.png",
+    ],
 
     description:
       "These semi plain top plastic pallets feature a baggy green finish, three runners and four-way entry for convenient material handling. With a static load capacity of 3000 kg and a dynamic load capacity of 1000 kg, they are suitable for industrial storage and warehouse operations.",
@@ -27,7 +32,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -37,7 +42,7 @@ export const products = [
     name: "Roto Molded Plastic Pallets",
     model: "",
 
-    images: ["/img/Plastic-Pallets/2.png", "/img/Plastic-Pallets/2.1.png"],
+    images: ["/img/Plastic-Pallets/2.png"],
 
     description:
       "These roto molded plastic pallets feature a closed top deck, reinforced construction and a durable LLDPE body designed for industrial storage and material handling. Suitable for cold storage, pharmaceutical, food and warehouse applications, they offer a static load capacity of 3000 kg and are designed for use with pallet racking systems.",
@@ -59,7 +64,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -90,7 +95,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -119,7 +124,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -148,7 +153,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -177,7 +182,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -207,7 +212,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -242,7 +247,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -277,7 +282,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -309,7 +314,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -340,7 +345,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -372,7 +377,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -398,7 +403,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -430,7 +435,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -462,7 +467,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -491,7 +496,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -517,7 +522,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -547,7 +552,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -570,7 +575,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -597,7 +602,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -607,7 +612,11 @@ export const products = [
     name: "Pilco Plastic Crates for Vegetables",
     model: "",
 
-    images: ["/img/Plastic-Pallets/21.png"],
+    images: [
+      "/img/Plastic-Pallets/21.png",
+      "/img/Plastic-Pallets/21.1.png",
+      "/img/Plastic-Pallets/21.2.png",
+    ],
 
     description:
       "Pilco Plastic Crates for Vegetables are available in recycled and virgin plastic materials. These injection moulded, perforated crates are designed for storing and handling vegetables and other food products. With a stackable design and a capacity of 20 kg, they are suitable for vegetable suppliers, food storage and distribution applications.",
@@ -630,7 +639,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -640,7 +649,7 @@ export const products = [
     name: "PEB Shed Structures",
     model: "",
 
-    images: ["/img/Plastic-Pallets/22.png"],
+    images: ["/img/Plastic-Pallets/22.png", "/img/Plastic-Pallets/22.1.png"],
 
     description:
       "Pilco manufactures and supplies PEB Shed Structures designed for warehouse and industrial applications. These modular structures feature a single-span design, painted surface treatment and a single-skin wall and roof system. With moisture-resistant and non-corrosive features, they provide a practical solution for covered storage and commercial spaces.",
@@ -663,7 +672,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -673,7 +682,7 @@ export const products = [
     name: "Plastic Storage Bin",
     model: "",
 
-    images: ["/img/Plastic-Pallets/23.png"],
+    images: ["/img/Plastic-Pallets/23.png", "/img/Plastic-Pallets/23.1.png"],
 
     description:
       "Pilco Plastic Storage Bins are available in recycled and virgin plastic materials for storage and material handling applications. These injection-moulded HDPE bins feature a rectangular, stackable design without partitions or lids, making them suitable for organizing and storing items in industrial and warehouse environments.",
@@ -696,7 +705,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -729,7 +738,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -751,7 +760,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -772,7 +781,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -795,15 +804,15 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // Cable Tray start
 
   {
     id: 28,
-    category: "cable-tray",
-    categoryLabel: "Cable Tray",
+    category: "cable-trays",
+    categoryLabel: "Cable Trays",
     name: "GI Perforated Cable Trays",
     model: "",
 
@@ -827,7 +836,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -857,7 +866,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -884,7 +893,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -909,7 +918,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -919,7 +928,7 @@ export const products = [
     name: "Electrical Cable Tray",
     model: "",
 
-    images: ["/img/Cable-Tray/5.png"],
+    images: ["/img/Cable-Tray/5.png", "/img/Cable-Tray/5.1.png"],
 
     description:
       "Electrical Cable Trays are designed for supporting and organizing electrical cables in industrial installations. Available in perforated and ladder-type designs, these trays are manufactured using mild steel and other materials with galvanized, powder-coated and painted finish options to meet different cable management requirements.",
@@ -945,7 +954,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -955,7 +964,11 @@ export const products = [
     name: "Cable Tray With Cover",
     model: "",
 
-    images: ["/img/Cable-Tray/6.png"],
+    images: [
+      "/img/Cable-Tray/6.png",
+      "/img/Cable-Tray/6.1.png",
+      "/img/Cable-Tray/6.2.png",
+    ],
 
     description:
       "Cable Tray With Cover is designed for organized cable routing and protection in industrial and commercial electrical installations. Manufactured from steel, these perforated cable trays are available with a plain cover and various surface finishes, including pre-galvanized, hot-dip galvanized and powder-coated options to suit different installation requirements.",
@@ -978,7 +991,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -988,7 +1001,7 @@ export const products = [
     name: "GI Cable Tray",
     model: "",
 
-    images: ["/img/Cable-Tray/7.png"],
+    images: ["/img/Cable-Tray/7.png", "/img/Cable-Tray/7.1.png"],
 
     description:
       "GI Cable Trays are designed for supporting and organizing electrical cables in industrial and commercial installations. Manufactured from steel, these cable trays are available in perforated and ladder-type designs with powder-coated, hot-dip galvanized and pre-galvanized finishes to meet different electrical cable management requirements.",
@@ -1012,7 +1025,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1022,7 +1035,11 @@ export const products = [
     name: "Powder Coated Cable Trays",
     model: "",
 
-    images: ["/img/Cable-Tray/8.png"],
+    images: [
+      "/img/Cable-Tray/8.png",
+      "/img/Cable-Tray/8.1.png",
+      "/img/Cable-Tray/8.2.png",
+    ],
 
     description:
       "Pilco Powder Coated Cable Trays are designed for supporting and organizing electrical cables in industrial and commercial installations. Available in ladder-type designs with colour-coated surfaces, these trays are offered in mild steel, aluminium and stainless steel, with powder-coated and galvanized finish options to meet different cable management requirements.",
@@ -1040,7 +1057,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1050,7 +1067,7 @@ export const products = [
     name: "Stainless Steel Cable Trays",
     model: "",
 
-    images: ["/img/Cable-Tray/9.png"],
+    images: ["/img/Cable-Tray/9.png", "/img/Cable-Tray/9.1.png"],
 
     description:
       "Pilco Stainless Steel Cable Trays are available in ladder-type and perforated designs for supporting and organizing electrical cables. Manufactured in SS 304 grade with a mill finish, these trays are designed for industrial and commercial cable management applications. Various coating and surface treatment options are also available to meet different installation requirements.",
@@ -1075,7 +1092,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1085,7 +1102,7 @@ export const products = [
     name: "GI Ladder Type Cable Tray",
     model: "",
 
-    images: ["/img/Cable-Tray/10.png"],
+    images: ["/img/Cable-Tray/10.png", "/img/Cable-Tray/10.1.png"],
 
     description:
       "Pilco GI Ladder Type Cable Trays are designed for supporting and organizing electrical cables in industrial and commercial installations. Manufactured from galvanized iron, these trays feature a ladder-type structure with 250 mm rung spacing and are available in pre-galvanized, hot-dip galvanized and powder-coated finishes to meet different cable management requirements.",
@@ -1107,7 +1124,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1117,7 +1134,7 @@ export const products = [
     name: "Cable Tray Fittings",
     model: "",
 
-    images: ["/img/Cable-Tray/11.png"],
+    images: ["/img/Cable-Tray/11.png", "/img/Cable-Tray/11.1.png"],
 
     description:
       "Pilco Cable Tray Fittings are designed for connecting, supporting and routing cables in industrial and commercial electrical installations. Manufactured from mild steel, these fittings are suitable for perforated and ladder-type cable trays and are available in pre-galvanized, hot-dip galvanized and powder-coated finishes to meet different installation requirements.",
@@ -1141,7 +1158,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1174,7 +1191,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1203,7 +1220,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1230,7 +1247,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1253,7 +1270,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1279,7 +1296,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1310,7 +1327,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1320,7 +1337,7 @@ export const products = [
     name: "Wire Mesh Cable Tray",
     model: "",
 
-    images: ["/img/Cable-Tray/18.png"],
+    images: ["/img/Cable-Tray/18.png", "/img/Cable-Tray/18.1.png"],
 
     description:
       "Wire Mesh Cable Trays are manufactured from galvanized iron and feature an open mesh design for supporting and organizing electrical cables in industrial installations. With a rectangular structure, 4.5 mm wire diameter and hot-dip galvanized finish, these trays provide ventilation, easy cable access and convenient routing for electrical cable management.",
@@ -1340,7 +1357,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1362,7 +1379,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // Warehouse Racks start
@@ -1394,7 +1411,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1429,7 +1446,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1459,7 +1476,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1486,7 +1503,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1510,7 +1527,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1534,7 +1551,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1559,7 +1576,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1584,7 +1601,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1608,7 +1625,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1643,7 +1660,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // Plastic Crates start
@@ -1655,7 +1672,7 @@ export const products = [
     name: "Plastic Vegetable Crate",
     model: "",
 
-    images: ["/img/Plastic-Crates/1.png"],
+    images: ["/img/Plastic-Crates/1.png", "/img/Plastic-Crates/1.1.png"],
 
     description:
       "Plastic Vegetable Crates are designed for storing, handling and transporting vegetables. These plastic crates feature a foldable design and are available in different styles and colours to suit storage requirements. With a capacity of 30 kg and outer dimensions of 542 × 360 × 290 mm, they offer a practical solution for vegetable handling and distribution.",
@@ -1674,7 +1691,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1704,7 +1721,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1714,7 +1731,7 @@ export const products = [
     name: "Milk Plastic Crates",
     model: "",
 
-    images: ["/img/Plastic-Crates/3.png"],
+    images: ["/img/Plastic-Crates/3.png", "/img/Plastic-Crates/3.1.png"],
 
     description:
       "Pilco Milk Plastic Crates are manufactured from HDPE and designed for dairy storage and handling applications. These non-foldable crates feature perforated sides, a textured finish and a durable structure for everyday dairy operations. With a 12-litre capacity, they provide a practical solution for organizing and transporting dairy products.",
@@ -1733,7 +1750,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1761,7 +1778,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1795,7 +1812,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1824,7 +1841,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1853,7 +1870,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1882,7 +1899,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1907,19 +1924,24 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // Industrial Storage Crate start
 
   {
     id: 66,
-    category: "industrial-storage-crate",
-    categoryLabel: "Industrial Storage Crate",
+    category: "industrial-storage-crates",
+    categoryLabel: "Industrial Storage Crates",
     name: "48 L Industrial Storage Crate",
     model: "",
 
-    images: ["/img/Industrial-Storage-Crate/1.png"],
+    images: [
+      "/img/Industrial-Storage-Crate/1.png",
+      "/img/Industrial-Storage-Crate/1.1.png",
+      "/img/Industrial-Storage-Crate/1.2.png",
+      "/img/Industrial-Storage-Crate/1.3.png",
+    ],
 
     description:
       "Pilco 48 L Industrial Storage Crates are designed for storing and organizing goods in warehouses, stores and cold storage facilities. These rectangular crates feature a perforated design, double-wall construction and built-in partitions. Their stackable structure allows efficient use of storage space, making them suitable for industrial storage and handling applications.",
@@ -1937,7 +1959,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1947,7 +1969,11 @@ export const products = [
     name: "70 L Industrial Storage Crate",
     model: "",
 
-    images: ["/img/Industrial-Storage-Crate/2.png"],
+    images: [
+      "/img/Industrial-Storage-Crate/2.png",
+      "/img/Industrial-Storage-Crate/2.1.png",
+      "/img/Industrial-Storage-Crate/2.2.png",
+    ],
 
     description:
       "Pilco 70 L Industrial Storage Crates are designed for storing and organizing goods in warehouses, stores and cold storage facilities. These rectangular crates feature a perforated design, double-wall construction and partitions for organized storage. Their stackable structure helps utilize available space efficiently, making them suitable for storing edible products in cold rooms and other storage environments.",
@@ -1965,7 +1991,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -1975,7 +2001,11 @@ export const products = [
     name: "20 L Industrial Storage Crate",
     model: "",
 
-    images: ["/img/Industrial-Storage-Crate/3.png"],
+    images: [
+      "/img/Industrial-Storage-Crate/3.png",
+      "/img/Industrial-Storage-Crate/3.1.png",
+      "/img/Industrial-Storage-Crate/3.2.png",
+    ],
 
     description:
       "Pilco 20 L Industrial Storage Crates are designed for storing and organizing goods in warehouses, stores and cold storage facilities. These rectangular, non-foldable crates feature double-wall construction and a stackable design to help utilize storage space efficiently. They are suitable for storing edible products and handling materials in industrial storage environments.",
@@ -1993,7 +2023,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -2003,7 +2033,11 @@ export const products = [
     name: "14 L Industrial Storage Crate",
     model: "",
 
-    images: ["/img/Industrial-Storage-Crate/4.png"],
+    images: [
+      "/img/Industrial-Storage-Crate/4.png",
+      "/img/Industrial-Storage-Crate/4.1.png",
+      "/img/Industrial-Storage-Crate/4.2.png",
+    ],
 
     description:
       "Pilco 14 L Industrial Storage Crates feature a rectangular design with perforated sides and double-wall construction. These non-foldable, stackable crates are designed for organizing, storing and handling goods in warehouses, shops and industrial storage facilities. Their compact design helps make efficient use of available storage space.",
@@ -2021,7 +2055,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -2031,7 +2065,11 @@ export const products = [
     name: "25 L Industrial Storage Crate",
     model: "",
 
-    images: ["/img/Industrial-Storage-Crate/5.png"],
+    images: [
+      "/img/Industrial-Storage-Crate/5.png",
+      "/img/Industrial-Storage-Crate/5.1.png",
+      "/img/Industrial-Storage-Crate/5.2.png",
+    ],
 
     description:
       "Pilco 25 L Industrial Storage Crates feature a rectangular design with perforated sides and double-wall construction. These non-foldable, stackable crates are suitable for organizing, storing and handling goods in warehouses and industrial storage facilities. Their 25-litre capacity and space-saving design make them practical for everyday storage and material handling applications.",
@@ -2049,7 +2087,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // Industrial Pallets start
@@ -2082,7 +2120,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -2116,7 +2154,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -2154,7 +2192,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -2183,7 +2221,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -2215,7 +2253,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -2241,7 +2279,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // Storage Racks start
@@ -2253,7 +2291,7 @@ export const products = [
     name: "Bulk Storage Rack",
     model: "",
 
-    images: ["/img/Storage-Racks/1.png"],
+    images: ["/img/Storage-Racks/1.png", "/img/Storage-Racks/1.1.png"],
 
     description:
       "Pilco Bulk Storage Racks are manufactured from mild steel with a powder-coated finish for organized storage in warehouses and industrial facilities. These long-span racks feature three storage levels, a sturdy construction and a load capacity of up to 1000 kg per level. Available in blue and orange, they provide an efficient solution for storing bulk goods and maximizing warehouse space.",
@@ -2274,7 +2312,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -2306,7 +2344,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // Heavy Duty Racks start
@@ -2339,7 +2377,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -2364,7 +2402,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -2390,7 +2428,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -2415,15 +2453,15 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // Vegetable Crate start
 
   {
     id: 83,
-    category: "vegetable-crate",
-    categoryLabel: "Vegetable Crate",
+    category: "vegetable-crates",
+    categoryLabel: "Vegetable Crates",
     name: "Plastic Vegetable Crate",
     model: "",
 
@@ -2444,7 +2482,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -2454,7 +2492,11 @@ export const products = [
     name: "Industrial Plastic Crate",
     model: "",
 
-    images: ["/img/Vegetable-Crate/2.png"],
+    images: [
+      "/img/Vegetable-Crate/2.png",
+      "/img/Vegetable-Crate/2.1.png",
+      "/img/Vegetable-Crate/2.2.png",
+    ],
 
     description:
       "Pilco Industrial Plastic Crates are made from HDPE and designed for storing and transporting vegetables, fruits and other goods. These rectangular, stackable crates feature a mesh-style design for convenient handling and are suitable for agricultural, warehouse and industrial applications. Available in recycled and virgin plastic variants, they offer a practical solution for handling produce such as apples, bananas, oranges and potatoes.",
@@ -2476,7 +2518,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -2502,7 +2544,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // Cable Tray Fittings start
@@ -2537,7 +2579,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -2567,7 +2609,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -2591,19 +2633,24 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // Plastic Dustbin start
 
   {
     id: 89,
-    category: "plastic-dustbin",
-    categoryLabel: "Plastic Dustbin",
+    category: "plastic-dustbins",
+    categoryLabel: "Plastic Dustbins",
     name: "80 L Plastic Dustbin",
     model: "",
 
-    images: ["/img/Plastic-Dustbin/1.png"],
+    images: [
+      "/img/Plastic-Dustbin/1.png",
+      "/img/Plastic-Dustbin/1.1.png",
+      "/img/Plastic-Dustbin/1.2.png",
+      "/img/Plastic-Dustbin/1.3.png",
+    ],
 
     description:
       "We are offering Dustbin to our clients. This 80 L plastic dustbin from Pilco is designed for home and industrial use, featuring a moisture-resistant and non-corrosive open-top structure for convenient waste collection and disposal.",
@@ -2624,7 +2671,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // Work Platforms start
@@ -2658,7 +2705,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // pallet wooden start
@@ -2670,7 +2717,7 @@ export const products = [
     name: "Wooden Rice Pallet",
     model: "",
 
-    images: ["/img/Wooden-Pallets/1.png"],
+    images: ["/img/pallet-wooden/1.png"],
 
     description:
       "Wooden pallets for rice made out of jungle wood, pine wood, mango wood, plywood. Available in sizes 1200×1000, 1300×1100, 1200×1200, 1500×900 mm or custom size as per requirements. Designed for heavy-duty industrial use with fumigated treatment.",
@@ -2692,7 +2739,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // pallet racks start
@@ -2704,7 +2751,7 @@ export const products = [
     name: "Pallet Logistics Rack",
     model: "",
 
-    images: ["/img/Pallet-Racks/1.png"],
+    images: ["/img/pallet-racks/1.png"],
 
     description:
       "Heavy duty pallet rack for 1000×1200 mm pallets with multitier loading levels. Designed for efficient warehouse storage and logistics, offering strong support and organized pallet placement across multiple levels.",
@@ -2722,7 +2769,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   {
@@ -2732,7 +2779,7 @@ export const products = [
     name: "Rack Accessory Pallet Back Stop Beam",
     model: "",
 
-    images: ["/img/Pallet-Racks/2.png"],
+    images: ["/img/pallet-racks/2.png"],
 
     description:
       "Pallet load stop beams protect horizontal flue space in selective pallet racks. This bolt-on accessory helps keep pallets securely positioned and improves safety during storage in warehouses, factories and cold storage areas.",
@@ -2751,19 +2798,19 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // strut channel start
 
   {
     id: 94,
-    category: "strut-channel",
-    categoryLabel: "Strut Channel",
+    category: "strut-channels",
+    categoryLabel: "Strut Channels",
     name: "Strut Channel",
     model: "",
 
-    images: ["/img/Strut-Channel/1.png"],
+    images: ["/img/strut-channel/1.png"],
 
     description:
       "Made out of pre-galvanized sheets C-sections in 2500 mm length. This GI strut channel is used for strong and reliable support in cable tray installations, electrical fittings and industrial mounting applications.",
@@ -2777,7 +2824,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // Prefabricated Steel Buildings start
@@ -2789,7 +2836,10 @@ export const products = [
     name: "Light Gauge Framing System",
     model: "",
 
-    images: ["/img/Prefabricated-Steel-Buildings/1.png"],
+    images: [
+      "/img/Prefabricated-Steel-Buildings/1.png",
+      "/img/Prefabricated-Steel-Buildings/1.1.png",
+    ],
 
     description:
       "Light gauge steel framing is a construction method that uses cold-formed steel sections to create a structural framework for buildings. This modular system offers a durable and efficient solution for prefabricated steel building construction.",
@@ -2804,18 +2854,22 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // g i threaded rod start
   {
     id: 96,
-    category: "gi-threaded-rod",
-    categoryLabel: "GI Threaded Rod",
+    category: "gi-threaded-rods",
+    categoryLabel: "GI Threaded Rods",
     name: "GI Threaded Rod",
     model: "",
 
-    images: ["/img/GI-Threaded-Rod/1.png"],
+    images: [
+      "/img/g-i-threaded-rod/1.png",
+      "/img/g-i-threaded-rod/1.1.png",
+      "/img/g-i-threaded-rod/1.2.png",
+    ],
 
     description:
       "GI threaded rods available in 8 mm, 10 mm, 12 mm and 16 mm diameters. Made from mild steel with GI coating, these rods are suitable for strong fastening and support applications in industrial and construction projects.",
@@ -2837,7 +2891,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // Recycled Plastic Shuttering pallets start
@@ -2848,7 +2902,7 @@ export const products = [
     name: "Recycled Plastic Shuttering Pallets",
     model: "",
 
-    images: ["/img/Recycled-Plastic-Shuttering-Pallets/1.png"],
+    images: ["/img/Recycled-Plastic-Shuttering-pallets/1.png"],
 
     description:
       "Recycled plastic shuttering pallets designed for heavy-duty use in warehouse, retail, export and storage applications. Available in 4-way entry with perforated and closed top deck options, offering durable and practical material handling solutions.",
@@ -2865,19 +2919,19 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // cable duct start
 
   {
     id: 98,
-    category: "cable-duct",
-    categoryLabel: "Cable Duct",
+    category: "cable-ducts",
+    categoryLabel: "Cable Ducts",
     name: "GI Cable Duct",
     model: "",
 
-    images: ["/img/Cable-Duct/1.png"],
+    images: ["/img/cable-duct/1.png"],
 
     description:
       "Cable ducts for refineries and tunnels made out of structural steel and mild steel sheets, duly hot dip galvanized or powder coated. Available in 2500 mm length with widths of 200, 450, 600, 750 and 900 mm for heavy-duty cable management.",
@@ -2897,7 +2951,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // Worker Lockers start
@@ -2930,7 +2984,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // shuttering plywood start
@@ -2942,7 +2996,7 @@ export const products = [
     name: "Shuttering Plywood Sheet",
     model: "",
 
-    images: ["/img/Shuttering-Plywood/1.png"],
+    images: ["/img/shuttering-plywood/1.png"],
 
     description:
       "Shuttering plywood available in 8×4 feet size with thickness options of 18 mm, 20 mm and 25 mm. Made from recycled plastic with a matt and smooth finish, suitable for furniture and partition applications.",
@@ -2963,7 +3017,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // Used Plastic Pallets start
@@ -2991,7 +3045,7 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // Export Pallets start
@@ -3018,15 +3072,15 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
 
   // Shed Structure start
 
   {
     id: 103,
-    category: "shed-structure",
-    categoryLabel: "Shed Structure",
+    category: "shed-structures",
+    categoryLabel: "Shed Structures",
     name: "Shed Structure",
     model: "",
 
@@ -3049,9 +3103,595 @@ export const products = [
     ],
 
     whatsapp: "918045804245",
-    phone: "+918045804245",
+    phone: "+919810074596",
   },
-  
+
+  // hand pallet truck start
+  {
+    id: 104,
+    category: "hand-pallet-trucks",
+    categoryLabel: "Hand Pallet Trucks",
+    name: "Steel Pallet",
+    model: "",
+
+    images: ["/img/hand-pallet-truck/1.png"],
+
+    description:
+      "Steel pallet made from GI steel with a galvanized strip deck surface. Designed for heavy-duty material handling with four-way fork entry, suitable for warehouse and industrial applications.",
+
+    specifications: [
+      ["Product Type", "Steel Pallet"],
+      ["Steel Grade", "GI Steel"],
+      ["Load Capacity", "2000 kg"],
+      ["Fork Entry", "Four Way"],
+      ["Pallet Size", "1200 × 1200 mm"],
+      ["Top Deck Type", "Strip Deck"],
+      ["Surface Finish", "Galvanized"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  // Race Ways start
+
+  {
+    id: 105,
+    category: "raceways",
+    categoryLabel: "Race Ways",
+    name: "Race Way",
+    model: "",
+
+    images: ["/img/Race-Ways/1.png", "/img/Race-Ways/1.1.png"],
+
+    description:
+      "Race Ways are designed for organized cable routing and protection in industrial and commercial electrical installations. Featuring a pre-galvanized finish and a covered design, these raceways help manage electrical cables while providing convenient access for installation and maintenance.",
+
+    specifications: [
+      ["Product Type", "Race Way"],
+      ["Width", "200 mm"],
+      ["Height", "38 mm"],
+      ["Thickness", "1.6 mm"],
+      ["Length", "2.5 m"],
+      ["Finish", "Pre-Galvanized"],
+      ["Cover Type", "With Cover"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  // junction box start
+
+  {
+    id: 106,
+    category: "junction-boxes",
+    categoryLabel: "Junction Boxes",
+    name: "Junction Box",
+    model: "",
+
+    images: ["/img/junction-box/1.png"],
+
+    description:
+      "Junction Boxes are designed for connecting and routing cable tray sections in industrial and commercial electrical installations. These fittings support organized cable distribution at intersections and branching points, helping maintain structured cable pathways. Available in different configurations, they can be used with cable tray systems to accommodate changes in cable routing direction.",
+
+    specifications: [
+      ["Product Type", "Junction Box"],
+      ["Application", "Cable Tray Junctions"],
+      ["Design Type", "Cable Tray Junction Fitting"],
+      ["Available Configurations", "Tee, Cross and Bend"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  // New Items start
+
+  {
+    id: 107,
+    category: "new-items",
+    categoryLabel: "New Items",
+    name: "Roto Molded Plastic Pallets",
+    model: "",
+
+    images: ["/img/New-Items/1.png"],
+
+    description:
+      "Roto Molded Plastic Pallets are manufactured from LLDPE material with steel reinforcement and PUF inside for industrial storage applications. These blue pallets feature a closed top deck, two-way entry and a racking design suitable for drum storage. With a static load capacity of 3000 kg and a racking load capacity of 1000 kg, they are suitable for food and pharmaceutical applications.",
+
+    specifications: [
+      ["Product Type", "Roto Molded Plastic Pallet"],
+      ["Pallet Size", "1200 × 1200 mm"],
+      ["Pallet Height", "160 mm"],
+      ["Material", "LLDPE"],
+      ["Manufacturing Process", "Roto Moulded"],
+      ["Pallet Type", "Racking"],
+      ["Top Deck Type", "Closed"],
+      ["Static Load Capacity", "3000 kg"],
+      ["Racking Load Capacity", "1000 kg"],
+      ["Entry Type", "2 Way"],
+      ["Pallet Weight", "25 kg"],
+      ["Reinforcement", "Steel Reinforced with PUF Inside"],
+      ["Colour", "Blue"],
+      ["Applications", "Drum Storage, Food, Pharma"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  {
+    id: 108,
+    category: "new-items",
+    categoryLabel: "New Items",
+    name: "Heavy Duty Plastic Pallets",
+    model: "",
+
+    images: ["/img/New-Items/2.png"],
+
+    description:
+      "Heavy Duty Plastic Pallets are designed for industrial storage and material handling applications. These blue racking pallets feature a perforated top deck, three runners, four reinforcement rods and four-way entry for convenient handling. With a static load capacity of 4000 kg, they provide a reliable solution for organizing and storing heavy goods in warehouses.",
+
+    specifications: [
+      ["Product Type", "Heavy Duty Plastic Pallet"],
+      ["Pallet Size", "1200 × 1000 mm"],
+      ["Pallet Height", "150 mm"],
+      ["Pallet Type", "Racking"],
+      ["Top Deck Type", "Perforated"],
+      ["Static Load Capacity", "4000 kg"],
+      ["Entry Type", "4 Way"],
+      ["Pallet Weight", "16 kg"],
+      ["Number of Runners", "3 Runners"],
+      ["Reinforcement", "4 Rods"],
+      ["Colour", "Blue"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  {
+    id: 109,
+    category: "new-items",
+    categoryLabel: "New Items",
+    name: "Heavy Duty Plastic Pallets",
+    model: "",
+
+    images: ["/img/New-Items/3.png"],
+
+    description:
+      "Heavy Duty Plastic Pallets are manufactured from 100% virgin HDPE using injection moulded construction. These baggy green racking pallets feature a plain or semi-perforated top deck, three runners and four-way entry for convenient material handling. They are designed for industrial storage and can be handled using forklifts, stackers and hand pallet trucks.",
+
+    specifications: [
+      ["Product Type", "Heavy Duty Plastic Pallet"],
+      ["Pallet Size", "1200 × 1000 mm"],
+      ["Pallet Height", "136 mm"],
+      ["Material", "100% Virgin HDPE"],
+      ["Manufacturing Process", "Injection Moulded"],
+      ["Pallet Type", "Racking"],
+      ["Top Deck Type", "Plain Top / Semi-Perforated"],
+      ["Static Load Capacity", "4000 kg"],
+      ["Dynamic Load Capacity", "1200 kg"],
+      ["Rack Load Capacity", "1000 kg"],
+      ["Entry Type", "4 Way"],
+      ["Number of Runners", "3 Runners"],
+      ["Pallet Weight", "20.5 kg"],
+      ["Colour", "Baggy Green"],
+      ["Handling Equipment", "Forklift, Stacker, Hand Pallet Truck"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  {
+    id: 110,
+    category: "new-items",
+    categoryLabel: "New Items",
+    name: "Industrial Plastic Pallet",
+    model: "",
+
+    images: ["/img/New-Items/4.png"],
+
+    description:
+      "Industrial Plastic Pallets are manufactured from 100% virgin HDPE using injection moulded construction. These blue racking pallets feature a perforated top deck, three runners, eight steel reinforcement rods and four-way entry. Designed for industrial storage and material handling, they offer a static load capacity of 4000 kg, dynamic load capacity of 1200 kg and racking load capacity of 1000 kg.",
+
+    specifications: [
+      ["Product Type", "Industrial Plastic Pallet"],
+      ["Pallet Size", "1200 × 1000 mm"],
+      ["Pallet Height", "160 mm"],
+      ["Material", "100% Virgin HDPE"],
+      ["Manufacturing Process", "Injection Moulded"],
+      ["Pallet Type", "Racking"],
+      ["Top Deck Type", "Perforated"],
+      ["Static Load Capacity", "4000 kg"],
+      ["Dynamic Load Capacity", "1200 kg"],
+      ["Racking Load Capacity", "1000 kg"],
+      ["Load Distribution", "Uniformly Distributed Load (UDL)"],
+      ["Entry Type", "4 Way"],
+      ["Number of Runners", "3 Runners"],
+      ["Reinforcement", "8 Steel Rods"],
+      ["Pallet Weight", "20 kg"],
+      ["Colour", "Blue"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  {
+    id: 111,
+    category: "new-items",
+    categoryLabel: "New Items",
+    name: "Plastic Industrial Pallets",
+    model: "",
+
+    images: ["/img/New-Items/5.png"],
+
+    description:
+      "Plastic Industrial Pallets are manufactured from 100% virgin HDPE using injection moulded construction. Featuring a plain or semi-perforated top deck, three runners and four-way entry, these baggy green racking pallets are designed for industrial storage and material handling. They offer a static load capacity of 4000 kg and can be handled using forklifts, stackers and hand pallet trucks.",
+
+    specifications: [
+      ["Product Type", "Plastic Industrial Pallet"],
+      ["Pallet Size", "1200 × 1000 mm"],
+      ["Pallet Height", "136 mm"],
+      ["Material", "100% Virgin HDPE"],
+      ["Manufacturing Process", "Injection Moulded"],
+      ["Pallet Type", "Racking"],
+      ["Top Deck Type", "Plain Top / Semi-Perforated"],
+      ["Static Load Capacity", "4000 kg"],
+      ["Dynamic Load Capacity", "1200 kg"],
+      ["Rack Load Capacity", "1000 kg"],
+      ["Entry Type", "4 Way"],
+      ["Number of Runners", "3 Runners"],
+      ["Pallet Weight", "20.5 kg"],
+      ["Colour", "Baggy Green"],
+      ["Handling Equipment", "Forklift, Stacker, Hand Pallet Truck"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  {
+    id: 112,
+    category: "new-items",
+    categoryLabel: "New Items",
+    name: "Plastic Pallets",
+    model: "",
+
+    images: ["/img/New-Items/6.png"],
+
+    description:
+      "Plastic Pallets are manufactured from HDPE material and feature a perforated top deck with six runners and four-way entry for convenient material handling. These blue, stackable pallets measure 1200 × 1000 × 135 mm and offer a static load capacity of 2000 kg, making them suitable for industrial storage and warehouse applications.",
+
+    specifications: [
+      ["Product Type", "Plastic Pallet"],
+      ["Pallet Size", "1200 × 1000 mm"],
+      ["Pallet Height", "135 mm"],
+      ["Material", "HDPE"],
+      ["Pallet Type", "Stackable"],
+      ["Top Deck Type", "Perforated"],
+      ["Static Load Capacity", "2000 kg"],
+      ["Entry Type", "4 Way"],
+      ["Number of Runners", "6 Runners"],
+      ["Colour", "Blue"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  {
+    id: 113,
+    category: "new-items",
+    categoryLabel: "New Items",
+    name: "Automotive Spare Parts Rack",
+    model: "",
+
+    images: ["/img/New-Items/7.png"],
+
+    description:
+      "Automotive Spare Parts Racks are designed for organized storage of vehicle body parts and other automotive components. Manufactured from mild steel with a powder-coated finish, these heavy-duty racks feature four shelves, a floor-standing design and a load capacity of 301–500 kg. Available in customized sizes, they provide practical storage solutions for automotive workshops, warehouses and industrial facilities.",
+
+    specifications: [
+      ["Product Type", "Automotive Spare Parts Rack"],
+      ["Rack Type", "Heavy Duty Rack"],
+      ["Material", "Mild Steel (MS)"],
+      ["Load Capacity", "301–500 kg"],
+      ["Number of Shelves", "4 Shelves"],
+      ["Suitable For", "Body Parts"],
+      ["Mounting Type", "Floor Standing"],
+      ["Surface Finish", "Powder Coated"],
+      ["Rack Depth", "750 mm"],
+      ["Colour", "Blue"],
+      ["Available Designs", "Slotted Angle Rack, Heavy Duty Rack"],
+      ["Size Options", "Customized as per Requirements"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  {
+    id: 114,
+    category: "new-items",
+    categoryLabel: "New Items",
+    name: "Book Store Racks",
+    model: "",
+
+    images: ["/img/New-Items/8.png"],
+
+    description:
+      "Book Store Racks are manufactured from mild steel with a powder-coated finish for organized storage and display of books. These single-sided racks feature seven adjustable shelves, an open-back design and a sturdy slotted angle structure. Suitable for bookstores, offices, libraries, schools and colleges, they provide a practical solution for accessible and space-efficient book storage.",
+
+    specifications: [
+      ["Product Type", "Book Store Rack"],
+      ["Material", "Mild Steel (MS)"],
+      ["Height", "2400 mm (8 ft)"],
+      ["Rack Type", "Single-Sided"],
+      ["Number of Shelves", "7 Shelves"],
+      ["Back Type", "No Back"],
+      ["Finish", "Powder Coated"],
+      ["Width", "900 mm (3 ft)"],
+      ["Shelf Depth", "375 mm (15 Inch)"],
+      ["Features", "Adjustable Shelves"],
+      ["Structure Type", "Slotted Angle"],
+      ["Assembly Type", "Bolted"],
+      ["Available Heights", "1800 mm, 2000 mm, 2400 mm, 2500 mm"],
+      ["Available Lengths", "900 mm, 1200 mm"],
+      ["Available Depths", "300 mm, 375 mm, 450 mm"],
+      ["Colour", "Dark Grey"],
+      ["Applications", "Bookstore, Office, Library, School, College"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  {
+    id: 115,
+    category: "new-items",
+    categoryLabel: "New Items",
+    name: "Foundation Bolt",
+    model: "",
+
+    images: ["/img/New-Items/9.png"],
+
+    description:
+      "Foundation Bolts are manufactured from mild steel with a zinc-plated finish for securing rack fittings and structural components. These anchor bolts feature a metric thread, Grade 8.8 specification and nut assembly for fastening applications. They are designed to provide reliable fixing support for industrial storage rack installations.",
+
+    specifications: [
+      ["Product Type", "Foundation Bolt"],
+      ["Bolt Type", "Anchor Bolt"],
+      ["Diameter", "8 mm"],
+      ["Overall Length", "100 mm"],
+      ["Grade", "8.8"],
+      ["Material", "Mild Steel"],
+      ["Finish", "Zinc Plated"],
+      ["Thread Standard", "Metric (mm)"],
+      ["Standard", "IS"],
+      ["Included Components", "Nuts"],
+      ["Application", "Rack Fittings"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  {
+    id: 116,
+    category: "new-items",
+    categoryLabel: "New Items",
+    name: "Tyre Storage Racks",
+    model: "",
+
+    images: ["/img/New-Items/10.png"],
+
+    description:
+      "Tyre Storage Racks are manufactured from heavy-duty mild steel with a powder-coated finish for organized tyre storage. These floor-standing racks feature three storage levels and a horizontal storage arrangement for car tyres. Suitable for warehouses, tyre shops, showrooms and service centres, they provide convenient access to stored tyres while making efficient use of available space.",
+
+    specifications: [
+      ["Product Type", "Tyre Storage Rack"],
+      ["Rack Type", "Floor Standing"],
+      ["Tyre Size Segment", "Car"],
+      ["Load Capacity Per Level", "201–400 kg"],
+      ["Material", "Heavy Duty Mild Steel (MS)"],
+      ["Number of Levels", "3 Levels"],
+      ["Rack Length", "2400 mm"],
+      ["Tyre Storage", "Horizontal"],
+      ["Surface Finish", "Powder Coated"],
+      ["Usage Areas", "Warehouse, Tyre Shop, Showroom, Service Centre"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  {
+    id: 117,
+    category: "new-items",
+    categoryLabel: "New Items",
+    name: "Plastic Sheet",
+    model: "",
+
+    images: ["/img/New-Items/11.png"],
+
+    description:
+      "Plastic Sheets are made from recycled plastic material and are available in 8 × 4 ft sizes with different thickness options. These PVC sheets feature a smooth surface finish and are suitable for packaging applications. Available in multiple colours, they provide a practical solution for industrial packaging and material handling requirements.",
+
+    specifications: [
+      ["Product Type", "Plastic Sheet"],
+      ["Polymer Type", "PVC"],
+      ["Material", "Recycled Plastic"],
+      ["Thickness", "12 mm"],
+      ["Available Thicknesses", "12 mm, 16 mm, 18 mm, 20 mm, 24 mm"],
+      ["Sheet Size", "8 × 4 ft"],
+      ["Colour Options", "Multicolour"],
+      ["Surface Finish", "Smooth"],
+      ["Usage/Application", "Packaging"],
+      ["UV Protection", "No"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  {
+    id: 118,
+    category: "new-items",
+    categoryLabel: "New Items",
+    name: "Perforated Plastic Crates",
+    model: "",
+
+    images: ["/img/New-Items/12.png"],
+
+    description:
+      "Pilco Perforated Plastic Crates are manufactured from semi-virgin plastic material and feature a ventilated design for storing and transporting fruits and vegetables. These non-foldable crates have a 20 kg load capacity and weigh approximately 1.5 kg. Available in blue, red and green, they are suitable for handling bananas, kinnow and other vegetables.",
+
+    specifications: [
+      ["Product Type", "Perforated Plastic Crate"],
+      ["Brand", "Pilco"],
+      ["Material", "Semi-Virgin Plastic"],
+      ["Capacity", "20 L"],
+      ["Load Capacity", "20 kg"],
+      ["Size", "540 × 360 × 300 mm"],
+      ["Foldable", "No"],
+      ["Perforation Type", "Perforated"],
+      ["Crate Weight", "1.5 kg"],
+      ["Available Colours", "Blue, Red, Green"],
+      ["Applications", "Banana, Kinnow, Vegetable Storage"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  {
+    id: 119,
+    category: "new-items",
+    categoryLabel: "New Items",
+    name: "Office Furniture",
+    model: "",
+
+    images: ["/img/New-Items/13.png"],
+
+    description:
+      "Pilco Office Furniture includes modular metal storage racks designed for organizing records, stationery and general office materials. These grey storage racks feature multiple open shelves for convenient access and are suitable for staff areas, libraries and office storage applications. Their modular construction allows practical space utilization and onsite assembly.",
+
+    specifications: [
+      ["Product Type", "Office Storage Rack"],
+      ["Furniture Type", "Storage Rack"],
+      ["Primary Material", "Metal"],
+      ["Usage Area", "Staff Area, Library"],
+      ["Colour", "Grey"],
+      ["Brand", "Pilco"],
+      ["Warranty", "6 Months"],
+      ["Style", "Modular"],
+      ["Assembly", "Onsite Assembly"],
+      ["Country of Origin", "India"],
+      ["Applications", "Record Storage, Stationery Storage, General Storage"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  {
+    id: 120,
+    category: "new-items",
+    categoryLabel: "New Items",
+    name: "Hydraulic Pallet Truck",
+    model: "",
+
+    images: ["/img/New-Items/14.png"],
+
+    description:
+      "Hydraulic Pallet Trucks are designed for lifting and transporting palletized goods in warehouses, factories and industrial storage facilities. These manually operated trucks feature a hydraulic lifting mechanism, a load capacity of 2500 kg and sturdy forks for convenient material handling. They are suitable for moving heavy loads over short distances in warehouse and industrial environments.",
+
+    specifications: [
+      ["Product Type", "Hydraulic Pallet Truck"],
+      ["Load Capacity", "2500 kg"],
+      ["Fork Length", "1000 mm"],
+      ["Fork Width", "540 mm"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  {
+    id: 121,
+    category: "new-items",
+    categoryLabel: "New Items",
+    name: "Industrial Material Handling Trolley",
+    model: "",
+
+    images: ["/img/New-Items/15.png"],
+
+    description:
+      "Industrial Material Handling Trolleys are designed for transporting goods and materials in warehouses, factories and industrial facilities. Manufactured from mild steel, these platform trolleys are available with plastic or steel top options and offer a load capacity of 300 kg. Their flat platform and push handle make them practical for everyday material movement.",
+
+    specifications: [
+      ["Product Type", "Industrial Material Handling Trolley"],
+      ["Trolley Type", "Platform Trolley"],
+      ["Load Capacity", "300 kg"],
+      ["Trolley Material", "Mild Steel"],
+      ["Platform Options", "Plastic Top, Steel Top"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  {
+    id: 122,
+    category: "new-items",
+    categoryLabel: "New Items",
+    name: "Power Press",
+    model: "",
+
+    images: ["/img/New-Items/16.png"],
+
+    description:
+      "Power Press machines are designed for metal pressing, forming and stamping operations in industrial manufacturing facilities. Featuring a mechanical operating system and an H-frame structure, this machine offers a press capacity of 10 tons. It is suitable for metalworking applications that require controlled pressing force.",
+
+    specifications: [
+      ["Product Type", "Power Press"],
+      ["Press Capacity", "10 Ton"],
+      ["Frame Type", "H Frame"],
+      ["Operating Type", "Mechanical"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
+
+  {
+    id: 123,
+    category: "new-items",
+    categoryLabel: "New Items",
+    name: "Nut Bolt",
+    model: "",
+
+    images: ["/img/New-Items/17.png"],
+
+    description:
+      "Nut Bolts are manufactured from high tensile steel and designed for fastening and securing components in industrial and mechanical applications. These Grade 8.8 fasteners feature an 8 mm diameter, 25 mm length and hex head design, making them suitable for assembly, installation and general fastening requirements.",
+
+    specifications: [
+      ["Product Type", "Nut Bolt"],
+      ["Diameter", "8 mm (5/16 Inch)"],
+      ["Length", "25 mm (1 Inch)"],
+      ["Grade", "8.8"],
+      ["Material", "High Tensile Steel"],
+      ["Head Type", "Hex"],
+    ],
+
+    whatsapp: "918045804245",
+    phone: "+919810074596",
+  },
 ];
 
 
@@ -3065,3 +3705,4 @@ export const products = [
 
 
 
+ 
