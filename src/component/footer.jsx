@@ -104,27 +104,27 @@ const Footer = () => {
 
                 <ul className="footer-links list-unstyled">
                   <li>
-                    <a href="/warehouse-racks">Warehouse Racks</a>
+                    <Link to="/warehouse-racks">Warehouse Racks</Link>
                   </li>
 
                   <li>
-                    <a href="/heavy-duty-racks">Heavy Duty Racks</a>
+                    <Link to="/heavy-duty-racks">Heavy Duty Racks</Link>
                   </li>
 
                   <li>
-                    <a href="/plastic-pallets">Plastic Pallets</a>
+                    <Link to="/plastic-pallets">Plastic Pallets</Link>
                   </li>
 
                   <li>
-                    <a href="/plastic-crates">Plastic Crates</a>
+                    <Link to="/plastic-crates">Plastic Crates</Link>
                   </li>
 
                   <li>
-                    <a href="/cable-trays">Cable Trays</a>
+                    <Link to="/cable-trays">Cable Trays</Link>
                   </li>
 
                   <li>
-                    <a href="/work-platforms">Work Platforms</a>
+                    <Link to="/work-platforms">Work Platforms</Link>
                   </li>
                 </ul>
               </div>
