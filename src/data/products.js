@@ -31,7 +31,7 @@ export const products = [
       ["Entry Type", "Four Way Entry"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -63,7 +63,7 @@ export const products = [
       ["Applications", "Cold Storage, Pharma, Warehouse, Food"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -94,7 +94,7 @@ export const products = [
       ["Application", "Export"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -123,7 +123,7 @@ export const products = [
       ["Applications", "Cold Storage, Food, Warehouse, Pharma"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -152,7 +152,7 @@ export const products = [
       ["Applications", "Warehouse, FMCG, Pharma, Retail, Food, Cold Storage"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -181,7 +181,7 @@ export const products = [
       ["Applications", "Cold Storage, Retail, Food, Warehouse, FMCG, Pharma"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -211,7 +211,7 @@ export const products = [
       ["Minimum Order Quantity", "50 Pieces"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -246,7 +246,7 @@ export const products = [
       ["Applications", "Automotive, Cold Storage, Warehouse, FMCG, Pharma"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -281,7 +281,7 @@ export const products = [
       ["Applications", "Food, Warehouse, Cold Storage"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -313,7 +313,7 @@ export const products = [
       ["Handling Equipment", "Forklift, Stacker, Hand Pallet Truck"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -344,7 +344,7 @@ export const products = [
       ["Applications", "Warehouse, Cold Storage, Food, FMCG"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -376,7 +376,7 @@ export const products = [
       ["Handling Equipment", "Forklift, Stacker, Hand Pallet Truck"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -402,7 +402,7 @@ export const products = [
       ["Entry Type", "4 Way"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -434,7 +434,7 @@ export const products = [
       ["Applications", "Pharma, Food"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -466,7 +466,7 @@ export const products = [
       ["Application", "FMCG Goods Storage"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -495,7 +495,7 @@ export const products = [
       ["Applications", "Warehouse, Cold Storage, Food, Pharma"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -521,7 +521,7 @@ export const products = [
       ["Entry Type", "4 Way"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -551,7 +551,7 @@ export const products = [
       ["Applications", "Storage, Export"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -574,7 +574,7 @@ export const products = [
       ["Top Deck Type", "Plain Top"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -601,7 +601,7 @@ export const products = [
       ["Application", "Storage"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -638,7 +638,7 @@ export const products = [
       ["Crate Weight", "1.5 kg"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -671,7 +671,7 @@ export const products = [
       ["Features", "Moisture Resistant, Non-Corrosive"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -704,7 +704,7 @@ export const products = [
       ["Load Capacity", "10 kg"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -737,7 +737,7 @@ export const products = [
       ["Portable", "Yes"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -759,7 +759,7 @@ export const products = [
       ["Colour", "Baggy Green"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -780,7 +780,7 @@ export const products = [
       ["Pallet Category", "Plastic Pallets"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -803,7 +803,7 @@ export const products = [
       ["Application", "Storage and Material Handling"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -835,7 +835,7 @@ export const products = [
       ["Documentation", "Test Certificates Provided"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -865,7 +865,7 @@ export const products = [
       ["Perforation Specification", "CPWD Specifications"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -892,7 +892,7 @@ export const products = [
       ["Included Accessories", "2 Coupler Plates"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -917,7 +917,7 @@ export const products = [
       ["Finish", "Pre-Galvanized"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -953,7 +953,7 @@ export const products = [
       ["Usage/Application", "Electrical Fittings"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -990,7 +990,7 @@ export const products = [
       ["Packaging Type", "Box"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1024,7 +1024,7 @@ export const products = [
       ["Usage/Application", "Electrical Fittings"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1056,7 +1056,7 @@ export const products = [
       ["Brand", "Pilco"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1091,7 +1091,7 @@ export const products = [
       ["Brand", "Pilco"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1123,7 +1123,7 @@ export const products = [
       ["Brand", "Pilco"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1157,7 +1157,7 @@ export const products = [
       ["Packaging Type", "Box"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1190,7 +1190,7 @@ export const products = [
       ["Operating Temperature", "Up to 80°C"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1219,7 +1219,7 @@ export const products = [
       ["Available Designs", "Perforated, Ladder Type"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1246,7 +1246,7 @@ export const products = [
       ["Rung Spacing", "250 mm"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1269,7 +1269,7 @@ export const products = [
       ["Width", "50 mm"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1295,7 +1295,7 @@ export const products = [
       ["Finish", "Pre-Galvanized"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1326,7 +1326,7 @@ export const products = [
       ["Brand", "Pilco"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1356,7 +1356,7 @@ export const products = [
       ["Brand", "Pilco Marketing"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1378,7 +1378,7 @@ export const products = [
       ["Construction", "Open Ladder Design"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1410,7 +1410,7 @@ export const products = [
       ["Usage/Application", "Warehouse"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1445,7 +1445,7 @@ export const products = [
       ["Design", "Open Type"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1475,7 +1475,7 @@ export const products = [
       ["Colour", "Orange & Blue"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1502,7 +1502,7 @@ export const products = [
       ["Construction Type", "Modular Bolted"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1526,7 +1526,7 @@ export const products = [
       ["Applications", "Warehouse, Workshop, Office, Storage"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1550,7 +1550,7 @@ export const products = [
       ["Applications", "Warehouse, Industrial Storage"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1575,7 +1575,7 @@ export const products = [
       ["Applications", "Warehouse, Industrial Storage"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1600,7 +1600,7 @@ export const products = [
       ["Handling Features", "Integrated Handles"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1624,7 +1624,7 @@ export const products = [
       ["Applications", "Pipes, Rods, Metal Sections, Long Materials"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1659,7 +1659,7 @@ export const products = [
       ],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1690,7 +1690,7 @@ export const products = [
       ["Usage/Application", "Vegetable"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1720,7 +1720,7 @@ export const products = [
       ["Manufacturing Method", "Injection Moulding"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1749,7 +1749,7 @@ export const products = [
       ["Outer Dimensions", "427 × 335 × 155 mm"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1777,7 +1777,7 @@ export const products = [
       ["Outer Dimensions", "427 × 335 × 155 mm"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1811,7 +1811,7 @@ export const products = [
       ["Available Colours", "Blue, Red, Green"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1840,7 +1840,7 @@ export const products = [
       ["Applications", "Banana, Kinnow, Vegetable Storage"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1869,7 +1869,7 @@ export const products = [
       ["Manufacturing Method", "Roto Moulding"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1898,7 +1898,7 @@ export const products = [
       ["Size", "471 × 378 × 168 mm"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1923,7 +1923,7 @@ export const products = [
       ["Handling Features", "Integrated Carrying Handles"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1958,7 +1958,7 @@ export const products = [
       ["Pattern", "Perforated"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -1990,7 +1990,7 @@ export const products = [
       ["Pattern", "Perforated"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2022,7 +2022,7 @@ export const products = [
       ["Pattern", "Solid"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2054,7 +2054,7 @@ export const products = [
       ["Pattern", "Perforated"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2086,7 +2086,7 @@ export const products = [
       ["Pattern", "Perforated"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2119,7 +2119,7 @@ export const products = [
       ["Available Sheet Size", "8 × 4 Feet"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2153,7 +2153,7 @@ export const products = [
       ["Applications", "Warehouse, Retail, Export, Material Handling"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2191,7 +2191,7 @@ export const products = [
       ["Applications", "Storage, Racking"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2220,7 +2220,7 @@ export const products = [
       ["Colour", "Grey"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2252,7 +2252,7 @@ export const products = [
       ["Usage Areas", "Factory, Cold Storage, Warehouse"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2278,7 +2278,7 @@ export const products = [
       ["Application", "Storage"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2311,7 +2311,7 @@ export const products = [
       ["Country of Origin", "Made in India"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2343,7 +2343,7 @@ export const products = [
       ["Assembly Type", "Nut & Bolt"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2376,7 +2376,7 @@ export const products = [
       ["Brand", "Advance"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2401,7 +2401,7 @@ export const products = [
       ["Applications", "Warehouse, Industrial Storage"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2427,7 +2427,7 @@ export const products = [
       ["Applications", "Warehouse, Industrial Storage"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2452,7 +2452,7 @@ export const products = [
       ["Applications", "Warehouse, Industrial Storage"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2481,7 +2481,7 @@ export const products = [
       ["Colour", "Green"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2517,7 +2517,7 @@ export const products = [
       ["Usage/Application", "Industrial"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2543,7 +2543,7 @@ export const products = [
       ["Wheel Material", "Nylon"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2578,7 +2578,7 @@ export const products = [
       ["Country of Origin", "India"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2608,7 +2608,7 @@ export const products = [
       ["Country of Origin", "India"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2632,7 +2632,7 @@ export const products = [
       ["Country of Origin", "India"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2670,7 +2670,7 @@ export const products = [
       ["Features", "Moisture Resistant, Non-Corrosive"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2704,7 +2704,7 @@ export const products = [
       ["Country of Origin", "India"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2738,7 +2738,7 @@ export const products = [
       ["Application", "Industrial"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2768,7 +2768,7 @@ export const products = [
       ["Surface Treatment", "Powder Coated"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2797,7 +2797,7 @@ export const products = [
       ["Colour", "Orange"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2823,7 +2823,7 @@ export const products = [
       ["Length", "2500 mm"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2853,7 +2853,7 @@ export const products = [
       ["Surface Treatment", "Color Coated"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2890,7 +2890,7 @@ export const products = [
       ["Available Diameters", "8 mm, 10 mm, 12 mm, 16 mm"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2918,7 +2918,7 @@ export const products = [
       ["Weight", "As Per Pallet Size"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2950,7 +2950,7 @@ export const products = [
       ["Standard", "IEC 61084"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -2983,7 +2983,7 @@ export const products = [
       ["Country of Origin", "India"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3016,7 +3016,7 @@ export const products = [
       ["Thickness", "12 mm, 16 mm, 18 mm, 20 mm, 24 mm"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3044,7 +3044,7 @@ export const products = [
       ["Approximate Age", "5+ years"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3071,7 +3071,7 @@ export const products = [
       ["Load Capacity", "1000 kg"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3102,7 +3102,7 @@ export const products = [
       ["Wall Panel Type", "GI Sheet"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3129,7 +3129,7 @@ export const products = [
       ["Surface Finish", "Galvanized"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3157,7 +3157,7 @@ export const products = [
       ["Cover Type", "With Cover"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3182,7 +3182,7 @@ export const products = [
       ["Available Configurations", "Tee, Cross and Bend"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3217,7 +3217,7 @@ export const products = [
       ["Applications", "Drum Storage, Food, Pharma"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3247,7 +3247,7 @@ export const products = [
       ["Colour", "Blue"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3281,7 +3281,7 @@ export const products = [
       ["Handling Equipment", "Forklift, Stacker, Hand Pallet Truck"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3316,7 +3316,7 @@ export const products = [
       ["Colour", "Blue"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3350,7 +3350,7 @@ export const products = [
       ["Handling Equipment", "Forklift, Stacker, Hand Pallet Truck"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3379,7 +3379,7 @@ export const products = [
       ["Colour", "Blue"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3410,7 +3410,7 @@ export const products = [
       ["Size Options", "Customized as per Requirements"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3446,7 +3446,7 @@ export const products = [
       ["Applications", "Bookstore, Office, Library, School, College"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3476,7 +3476,7 @@ export const products = [
       ["Application", "Rack Fittings"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3505,7 +3505,7 @@ export const products = [
       ["Usage Areas", "Warehouse, Tyre Shop, Showroom, Service Centre"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3534,7 +3534,7 @@ export const products = [
       ["UV Protection", "No"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3564,7 +3564,7 @@ export const products = [
       ["Applications", "Banana, Kinnow, Vegetable Storage"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3594,7 +3594,7 @@ export const products = [
       ["Applications", "Record Storage, Stationery Storage, General Storage"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3617,7 +3617,7 @@ export const products = [
       ["Fork Width", "540 mm"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3641,7 +3641,7 @@ export const products = [
       ["Platform Options", "Plastic Top, Steel Top"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3664,7 +3664,7 @@ export const products = [
       ["Operating Type", "Mechanical"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
@@ -3689,7 +3689,7 @@ export const products = [
       ["Head Type", "Hex"],
     ],
 
-    whatsapp: "918045804245",
+    whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 ];
