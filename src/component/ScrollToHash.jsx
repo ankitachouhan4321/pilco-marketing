@@ -6,27 +6,34 @@ const ScrollToHash = () => {
     const { pathname, hash } = useLocation();
 
     useEffect(() => {
-        if (!hash) return;
-
-        let attempts = 0;
         let timeoutId;
 
-        const scrollToSection = () => {
-            const id = decodeURIComponent(hash.slice(1));
-            const section = document.getElementById(id);
+        if (hash) {
+            const scrollToSection = (attempt = 0) => {
+                const id = decodeURIComponent(hash.substring(1));
+                const element = document.getElementById(id);
 
-            if (section) {
-                section.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start",
-                });
-            } else if (attempts < 20) {
-                attempts++;
-                timeoutId = setTimeout(scrollToSection, 100);
-            }
-        };
+                if (element) {
+                    element.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start",
+                    });
+                } else if (attempt < 20) {
+                    timeoutId = setTimeout(
+                        () => scrollToSection(attempt + 1),
+                        100
+                    );
+                }
+            };
 
-        scrollToSection();
+            scrollToSection();
+        } else {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "instant",
+            });
+        }
 
         return () => clearTimeout(timeoutId);
     }, [pathname, hash]);
