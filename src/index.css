@@ -2436,7 +2436,7 @@ body {
       rgba(20, 20, 20, 0.72),
       rgba(20, 20, 20, 0.40)
     ),
-    url("img/bread-banner.png") center / cover no-repeat;
+    url("/img/bread-banner.png") center / cover no-repeat;
   overflow: hidden;
 }
 
