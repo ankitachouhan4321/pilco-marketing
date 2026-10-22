@@ -12,7 +12,9 @@ export default function CategoryPage({
   title,
   heading,
   description,
-}) {
+})
+ {
+
   const [search, setSearch] = useState("");
 
   const filteredProducts = useMemo(() => {

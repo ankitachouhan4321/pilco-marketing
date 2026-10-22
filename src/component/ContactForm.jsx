@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // Add your official PILCO email in the .env file.
-const CONTACT_EMAIL = "ankitachouhan4585@gmail.com";
+const CONTACT_EMAIL = "pilcoindia@gmail.com";
 
 const initialFormData = {
   name: "",
