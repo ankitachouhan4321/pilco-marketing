@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // Add your official PILCO email in the .env file.
-const CONTACT_EMAIL = "pilcoindia@gmail.com";
+const CONTACT_EMAIL = "ankitachouhan4585@gmail.com";
 
 const initialFormData = {
   name: "",
@@ -65,21 +65,7 @@ const ContactForm = () => {
 
     if (isSubmitting) return;
 
-    // Honeypot spam protection
-    if (formData.website) {
-      setStatus({
-        type: "danger",
-        message: "Unable to process this submission.",
-      });
-      return;
-    }
-
-    if (!CONTACT_EMAIL) {
-      setStatus({
-        type: "danger",
-        message:
-          "Enquiry service is not configured. Please contact our team directly.",
-      });
+    if (formData.website.trim()) {
       return;
     }
 
@@ -96,63 +82,65 @@ const ContactForm = () => {
     setIsSubmitting(true);
     setStatus({ type: "", message: "" });
 
-    const form = new FormData();
-
-    form.append("_subject", `PILCO ${formData.enquiryType} - ${formData.name}`);
-
-    form.append("_template", "table");
-    form.append("_captcha", "false");
-
-    form.append("Full Name", formData.name.trim());
-    form.append("Phone Number", formData.phone.trim());
-    form.append("Email Address", formData.email.trim());
-    form.append("Enquiry Type", formData.enquiryType);
-    form.append("Product Category", formData.product || "Not Specified");
-
-    form.append("Company Name", formData.company || "Not Provided");
-
-    form.append("City / Location", formData.city || "Not Provided");
-
-    form.append("Required Quantity", formData.quantity || "Not Specified");
-
-    form.append("Requirements", formData.message.trim());
-
     try {
       const response = await fetch(
-        `https://formsubmit.co/ajax/${encodeURIComponent(CONTACT_EMAIL)}`,
+        `https://formsubmit.co/ajax/${CONTACT_EMAIL}`,
         {
           method: "POST",
-          body: form,
           headers: {
+            "Content-Type": "application/json",
             Accept: "application/json",
           },
-        },
+          body: JSON.stringify({
+            name: formData.name.trim(),
+            email: formData.email.trim(),
+            phone: formData.phone.trim(),
+            enquiryType: formData.enquiryType,
+            product: formData.product || "Not Specified",
+            company: formData.company || "Not Provided",
+            city: formData.city || "Not Provided",
+            quantity: formData.quantity || "Not Specified",
+            message: formData.message.trim(),
+
+            _subject: `New PILCO Enquiry - ${formData.name}`,
+            _template: "table",
+            _captcha: "false",
+            _replyto: formData.email.trim(),
+          }),
+        }
       );
 
       const result = await response.json();
 
-      if (
-        response.ok &&
-        (result.success === "true" || result.success === true)
-      ) {
-        setStatus({
-          type: "success",
-          message:
-            "Thank you for contacting PILCO! Your enquiry has been submitted. Our team will get back to you shortly.",
-        });
+      console.log("FormSubmit Response:", result);
 
-        setFormData({ ...initialFormData });
-      } else {
-        throw new Error(result.message || "Unable to submit enquiry.");
+      if (
+        !response.ok ||
+        (result.success !== true && result.success !== "true")
+      ) {
+        throw new Error(
+          result.message || "Form submission failed."
+        );
       }
+
+      setStatus({
+        type: "success",
+        message:
+          "Thank you! Your enquiry has been submitted successfully. Our team will contact you shortly.",
+      });
+
+      setFormData({ ...initialFormData });
+
     } catch (error) {
-      console.error("PILCO enquiry error:", error);
+      console.error("PILCO Form Submission Error:", error);
 
       setStatus({
         type: "danger",
         message:
+          error.message ||
           "Sorry, we couldn't submit your enquiry. Please try again later.",
       });
+
     } finally {
       setIsSubmitting(false);
     }
