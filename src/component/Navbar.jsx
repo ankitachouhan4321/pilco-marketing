@@ -100,34 +100,46 @@ const Navbar = () => {
 
                       {[
 
-                        { name: "Plastic Pallets", link: "/plastic-pallets" },
-                        { name: "Cable Trays", link: "/cable-trays" },
-                        { name: "Warehouse Racks", link: "/warehouse-racks" },
-                        { name: "Plastic Crates", link: "/plastic-crates" },
-                        { name: "Industrial Storage Crates", link: "/industrial-storage-crates" },
-                        { name: "Industrial Pallets", link: "/industrial-pallets" },
-                        { name: "Storage Racks", link: "/storage-racks" },
-                        { name: "Heavy Duty Racks", link: "/heavy-duty-racks" },
-                        { name: "Vegetable Crates", link: "/vegetable-crates" },
-                        { name: "Cable Tray Fittings", link: "/cable-tray-fittings" },
-                        { name: "Plastic Dustbins", link: "/plastic-dustbins" },
-                        { name: "Work Platforms", link: "/work-platforms" },
-                        { name: "Wooden Pallets", link: "/wooden-pallets" },
-                        { name: "Pallet Racks", link: "/pallet-racks" },
+            
+                        // { name: "Warehouse Racks", link: "/warehouse-racks" },
+                        // { name: "Plastic Crates", link: "/plastic-crates" },
+                        // { name: "Industrial Storage Crates", link: "/industrial-storage-crates" },
+                        // { name: "Industrial Pallets", link: "/industrial-pallets" },
+                        // { name: "Storage Racks", link: "/storage-racks" },
+                        // { name: "Heavy Duty Racks", link: "/heavy-duty-racks" },
+                        // { name: "Vegetable Crates", link: "/vegetable-crates" },
+                        // { name: "Cable Tray Fittings", link: "/cable-tray-fittings" },
+                        // { name: "Plastic Dustbins", link: "/plastic-dustbins" },
+                        // { name: "Work Platforms", link: "/work-platforms" },
+                        // { name: "Wooden Pallets", link: "/wooden-pallets" },
+                        // { name: "Pallet Racks", link: "/pallet-racks" },
+                        // { name: "Prefabricated Steel Buildings", link: "/prefabricated-steel-buildings" },
+                        // { name: "GI Threaded Rods", link: "/gi-threaded-rods" },
+                        // { name: "Recycled Plastic Shuttering Pallets", link: "/recycled-plastic-shuttering-pallets" },
+                        // { name: "Cable Ducts", link: "/cable-ducts" },
+                        // { name: "Worker Lockers", link: "/worker-lockers" },
+                        // { name: "Shuttering Plywood", link: "/shuttering-plywood" },
+                        // { name: "Used Plastic Pallets", link: "/used-plastic-pallets" },
+                        // { name: "Export Pallets", link: "/export-pallets" },
+                        // { name: "Shed Structures", link: "/shed-structures" },
+                        // { name: "Hand Pallet Trucks", link: "/hand-pallet-trucks" },
+                        // { name: "Raceways", link: "/raceways" },
+                        // { name: "Junction Boxes", link: "/junction-boxes" },
+                        // { name: "New Items", link: "/new-items" },
+
+                        // new products 
+                        { name: "Plastic Pallets", link: "/plastic-pallets-manufacturer" },
+                        { name: "Racks", link: "/racks-manufacturer" },
+                        { name: "Mezzanine Floors", link: "/mezzanine-floors-manufacturer" },
+                        { name: "FLC Boxes", link: "/flc-boxes-manufacturer" },
+                        { name: "Cable Trays", link: "/cable-trays-manufacturer" },
                         { name: "Strut Channels", link: "/strut-channels" },
-                        { name: "Prefabricated Steel Buildings", link: "/prefabricated-steel-buildings" },
-                        { name: "GI Threaded Rods", link: "/gi-threaded-rods" },
-                        { name: "Recycled Plastic Shuttering Pallets", link: "/recycled-plastic-shuttering-pallets" },
-                        { name: "Cable Ducts", link: "/cable-ducts" },
-                        { name: "Worker Lockers", link: "/worker-lockers" },
-                        { name: "Shuttering Plywood", link: "/shuttering-plywood" },
-                        { name: "Used Plastic Pallets", link: "/used-plastic-pallets" },
-                        { name: "Export Pallets", link: "/export-pallets" },
-                        { name: "Shed Structures", link: "/shed-structures" },
-                        { name: "Hand Pallet Trucks", link: "/hand-pallet-trucks" },
-                        { name: "Raceways", link: "/raceways" },
-                        { name: "Junction Boxes", link: "/junction-boxes" },
-                        { name: "New Items", link: "/new-items" },
+
+   
+
+                        
+
+
 
 
                         // Add remaining category names and links here

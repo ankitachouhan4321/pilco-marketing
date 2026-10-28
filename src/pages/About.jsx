@@ -1,4 +1,5 @@
 import React from 'react'
+import ProductInfoCard from "../component/ProductInfoCard"
 
 const About = () => {
    const stats = [
@@ -47,6 +48,7 @@ const About = () => {
       </section>
 
       {/* breadcrumb start */}
+      
       {/* about-sec start */}
       <section id="about-sec" className="py-lg-5 py-4">
         <div className="container-lg py-lg-5 py-3">
@@ -365,6 +367,8 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      <ProductInfoCard/>
     </>
   );
 }

@@ -7,28 +7,21 @@ export const products = [
     id: 1,
     category: "plastic-pallets",
     categoryLabel: "Plastic Pallets",
-    name: "Plastic Pallets 1200×1000×136mm",
-    model: "",
+    name: "PIL-001 Plastic Pallet",
+    model: "PIL-001",
 
-    images: [
-      "/img/Plastic-Pallets/1.png",
-      "/img/Plastic-Pallets/1.1.png",
-      "/img/Plastic-Pallets/1.2.png",
-      "/img/Plastic-Pallets/1.3.png",
-    ],
+    images: ["/img/Plastic-Pallets/1.png", "/img/Plastic-Pallets/1.1.png"],
 
     description:
-      "These semi plain top plastic pallets feature a baggy green finish, three runners and four-way entry for convenient material handling. With a static load capacity of 3000 kg and a dynamic load capacity of 1000 kg, they are suitable for industrial storage and warehouse operations.",
+      "PILCO PIL-001 Plastic Pallet is manufactured from HDPE material and features a perforated top surface for efficient industrial storage and material handling. With a static load capacity of 3000 kg, dynamic load capacity of 750 kg, and racking capacity of 750 kg, it is suitable for warehouse storage and logistics applications.",
 
     specifications: [
-      ["Product Type", "Semi Plain Top Plastic Pallet"],
-      ["Pallet Size", "1200 × 1000 mm"],
-      ["Height", "136 mm"],
-      ["Colour", "Baggy Green"],
-      ["Number of Runners", "3 Runners"],
-      ["Static Load Capacity", "3000 kg"],
-      ["Dynamic Load Capacity", "1000 kg"],
-      ["Entry Type", "Four Way Entry"],
+      ["Material", "HDPE"],
+      ["Dimension", "1200 x 1000 x 160 mm"],
+      ["Static", "3000 KG"],
+      ["Dynamic", "750 KG"],
+      ["Racking", "750 KG"],
+      ["Top Surface", "Perforated"],
     ],
 
     whatsapp: "+919810074596",
@@ -39,28 +32,21 @@ export const products = [
     id: 2,
     category: "plastic-pallets",
     categoryLabel: "Plastic Pallets",
-    name: "Roto Molded Plastic Pallets",
-    model: "",
+    name: "PIL-001 With 4 Steel Bones Plastic Pallet",
+    model: "PIL-001 WITH 4 STEEL BONES",
 
-    images: ["/img/Plastic-Pallets/2.png"],
+    images: ["/img/Plastic-Pallets/2.png", "/img/Plastic-Pallets/2.1.png"],
 
     description:
-      "These roto molded plastic pallets feature a closed top deck, reinforced construction and a durable LLDPE body designed for industrial storage and material handling. Suitable for cold storage, pharmaceutical, food and warehouse applications, they offer a static load capacity of 3000 kg and are designed for use with pallet racking systems.",
+      "PILCO PIL-001 With 4 Steel Bones Plastic Pallet is a heavy-duty HDPE pallet designed for industrial storage, warehouse operations, and material handling. Featuring a perforated top surface and four steel reinforcements, it offers a static load capacity of 4000 kg, dynamic load capacity of 1000 kg, and racking capacity of 1000 kg for demanding storage requirements.",
 
     specifications: [
-      ["Product Type", "Roto Molded Plastic Pallet"],
-      ["Pallet Size", "1200 × 1000 mm"],
-      ["Pallet Height", "160 mm"],
-      ["Material", "LLDPE"],
-      ["Pallet Type", "Racking"],
-      ["Top Deck Type", "Closed"],
-      ["Pallet Weight", "18 kg"],
-      ["Static Load Capacity", "3000 kg"],
-      ["Dynamic Load Capacity", "1000 kg"],
-      ["Rackable Load Capacity", "1000 kg"],
-      ["Entry Type", "2 Way"],
-      ["Available Colours", "Green, Yellow, Grey, Red, Blue"],
-      ["Applications", "Cold Storage, Pharma, Warehouse, Food"],
+      ["Material", "HDPE"],
+      ["Dimension", "1200 x 1000 x 160 mm"],
+      ["Static", "4000 KG"],
+      ["Dynamic", "1000 KG"],
+      ["Racking", "1000 KG"],
+      ["Top Surface", "Perforated"],
     ],
 
     whatsapp: "+919810074596",
@@ -71,27 +57,21 @@ export const products = [
     id: 3,
     category: "plastic-pallets",
     categoryLabel: "Plastic Pallets",
-    name: "Plastic Pallets J-Type",
-    model: "",
+    name: "PIL-001 With 8 Steel Bones Plastic Pallet",
+    model: "PIL-001 WITH 8 STEEL BONES",
 
-    images: ["/img/Plastic-Pallets/3.png"],
+    images: ["/img/Plastic-Pallets/3.png", "/img/Plastic-Pallets/3.1.png"],
 
     description:
-      "These J-Type plastic pallets are made from recycled HDPE and feature a perforated top deck with a nestable design for convenient storage and handling. Designed for export applications, they offer four-way entry, a static load capacity of 1000 kg and a lightweight structure suitable for stacking and material movement.",
+      "PILCO PIL-001 With 8 Steel Bones Plastic Pallet is manufactured from HDPE material and designed for heavy-duty industrial storage and material handling. Featuring a perforated top surface and eight steel reinforcements, it offers a static load capacity of 5000 kg, dynamic load capacity of 1200 kg, and racking capacity of 1000 kg. Suitable for warehouses, factories, and industrial storage applications.",
 
     specifications: [
-      ["Product Type", "J-Type Plastic Pallet"],
-      ["Pallet Size", "1200 × 1000 mm"],
-      ["Pallet Height", "135 mm"],
-      ["Material", "Recycled HDPE"],
-      ["Pallet Type", "Nestable"],
-      ["Top Deck Type", "Perforated"],
-      ["Static Load Capacity", "1000 kg"],
-      ["Entry Type", "4 Way"],
-      ["Pallet Weight", "8 kg"],
-      ["Colour", "Black"],
-      ["Number of Legs", "9 Legs"],
-      ["Application", "Export"],
+      ["Material", "HDPE"],
+      ["Dimension", "1200 x 1000 x 160 mm"],
+      ["Static", "5000 KG"],
+      ["Dynamic", "1200 KG"],
+      ["Racking", "1000 KG"],
+      ["Top Surface", "Perforated"],
     ],
 
     whatsapp: "+919810074596",
@@ -102,710 +82,549 @@ export const products = [
     id: 4,
     category: "plastic-pallets",
     categoryLabel: "Plastic Pallets",
-    name: "Pilco Poly Pallets",
-    model: "",
+    name: "PIL-002 Plastic Pallet",
+    model: "PIL-002",
 
-    images: ["/img/Plastic-Pallets/4.png"],
+    images: ["/img/Plastic-Pallets/4.png", "/img/Plastic-Pallets/4.1.png"],
 
     description:
-      "Pilco Poly Pallets are manufactured from HDPE material and feature a perforated top deck with a four-way entry design for convenient material handling. These blue racking pallets offer a static load capacity of 4000 kg and are suitable for cold storage, food processing, warehouses and pharmaceutical applications.",
+      "PILCO PIL-002 Plastic Pallet is manufactured from durable HDPE material for industrial storage, warehouse operations, and material handling. Designed with a perforated top surface as specified in the catalogue, it offers a static load capacity of 4000 kg, dynamic load capacity of 1000 kg, and racking capacity of 1000 kg. Measuring 1200 x 1200 x 170 mm, this pallet provides reliable support for heavy-duty storage applications.",
 
     specifications: [
-      ["Product Type", "Poly Plastic Pallet"],
-      ["Pallet Size", "1200 × 1000 mm"],
       ["Material", "HDPE"],
-      ["Pallet Type", "Racking"],
-      ["Top Deck Type", "Perforated"],
-      ["Static Load Capacity", "4000 kg"],
-      ["Entry Type", "4 Way"],
-      ["Pallet Weight", "15 kg"],
-      ["Colour", "Blue"],
-      ["Applications", "Cold Storage, Food, Warehouse, Pharma"],
+      ["Dimension", "1200 x 1200 x 170 mm"],
+      ["Static", "4000 KG"],
+      ["Dynamic", "1000 KG"],
+      ["Racking", "1000 KG"],
+      ["Top Surface", "Perforated"],
     ],
 
     whatsapp: "+919810074596",
     phone: "+919810074596",
   },
 
-  {
-    id: 5,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Plastic Pallets P-Type",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/5.png"],
-
-    description:
-      "Plastic Pallets P-Type are made from HDPE material and feature a closed top deck with a four-way entry design for convenient material handling. These blue, non-racking pallets offer a static load capacity of 2000 kg and are suitable for warehouses, FMCG, pharmaceutical, retail, food and cold storage applications.",
-
-    specifications: [
-      ["Product Type", "P-Type Plastic Pallet"],
-      ["Pallet Size", "1200 × 1000 mm"],
-      ["Material", "HDPE"],
-      ["Pallet Type", "Non-Racking"],
-      ["Top Deck Type", "Closed"],
-      ["Static Load Capacity", "2000 kg"],
-      ["Entry Type", "4 Way"],
-      ["Pallet Weight", "12 kg"],
-      ["Colour", "Blue"],
-      ["Applications", "Warehouse, FMCG, Pharma, Retail, Food, Cold Storage"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 6,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Plastic Pallets D-Type",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/6.png"],
-
-    description:
-      "Plastic Pallets D-Type are made from HDPE material and feature a perforated top deck with four-way entry for convenient material handling. These blue, non-racking pallets offer a static load capacity of 4000 kg and are suitable for cold storage, retail, food, warehouse, FMCG and pharmaceutical applications.",
-
-    specifications: [
-      ["Product Type", "D-Type Plastic Pallet"],
-      ["Pallet Size", "1200 × 1000 mm"],
-      ["Material", "HDPE"],
-      ["Pallet Type", "Non-Racking"],
-      ["Top Deck Type", "Perforated"],
-      ["Static Load Capacity", "4000 kg"],
-      ["Entry Type", "4 Way"],
-      ["Pallet Weight", "15 kg"],
-      ["Colour", "Blue"],
-      ["Applications", "Cold Storage, Retail, Food, Warehouse, FMCG, Pharma"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 7,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Plastic Pallets R-Type",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/7.png"],
-
-    description:
-      "Plastic Pallets R-Type are lightweight export pallets made from HDPE material, featuring a perforated top deck and four-way entry for convenient material handling. These blue pallets have a static load capacity of 2000 kg and are suitable for warehouse storage and export-related applications.",
-
-    specifications: [
-      ["Product Type", "R-Type Plastic Pallet"],
-      ["Pallet Size", "1200 × 1000 mm"],
-      ["Material", "HDPE"],
-      ["Pallet Type", "Export Light"],
-      ["Top Deck Type", "Perforated"],
-      ["Static Load Capacity", "2000 kg"],
-      ["Entry Type", "4 Way"],
-      ["Pallet Weight", "10 kg"],
-      ["Colour", "Blue"],
-      ["Application", "Warehouse"],
-      ["Minimum Order Quantity", "50 Pieces"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 8,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Industrial Plastic Pallet",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/8.png"],
-
-    description:
-      "Industrial Plastic Pallets are manufactured from virgin HDPE using injection moulded construction and feature a perforated top deck, three runners and four steel reinforcement rods. Designed with four-way entry for convenient material handling, these pallets are suitable for automotive, cold storage, warehouse, FMCG and pharmaceutical applications.",
-
-    specifications: [
-      ["Product Type", "Industrial Plastic Pallet"],
-      ["Pallet Size", "1200 × 1000 mm"],
-      ["Pallet Height", "160 mm"],
-      ["Material", "Virgin HDPE"],
-      ["Manufacturing Process", "Injection Moulded"],
-      ["Pallet Type", "Racking"],
-      ["Top Deck Type", "Perforated"],
-      ["Static Load Capacity", "4000 kg"],
-      ["Dynamic Load Capacity", "1000 kg"],
-      ["Rackable Load Capacity", "1000 kg UDL"],
-      ["Entry Type", "4 Way"],
-      ["Pallet Weight", "16 kg"],
-      ["Number of Runners", "3 Runners"],
-      ["Reinforcement", "4 Steel Rods"],
-      ["Colour", "Blue"],
-      ["Applications", "Automotive, Cold Storage, Warehouse, FMCG, Pharma"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 9,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Plastic Pallets",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/9.png"],
-
-    description:
-      "These plastic pallets are manufactured from virgin HDPE using injection moulded construction. They feature a blue perforated top deck, three runners, four reinforcement rods and four-way entry for convenient material handling. Designed for racking applications, they are suitable for food storage, warehouses and cold storage facilities.",
-
-    specifications: [
-      ["Product Type", "Plastic Pallet"],
-      ["Pallet Size", "1200 × 1000 mm"],
-      ["Pallet Height", "160 mm"],
-      ["Material", "Virgin HDPE"],
-      ["Manufacturing Process", "Injection Moulded"],
-      ["Pallet Type", "Racking"],
-      ["Top Deck Type", "Perforated"],
-      ["Static Load Capacity", "4000 kg"],
-      ["Dynamic Load Capacity", "1000 kg"],
-      ["Rackable Load Capacity", "1000 kg UDL"],
-      ["Entry Type", "4 Way"],
-      ["Pallet Weight", "18 kg"],
-      ["Number of Runners", "3 Runners"],
-      ["Reinforcement", "4 Rods"],
-      ["Colour", "Blue"],
-      ["Applications", "Food, Warehouse, Cold Storage"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 10,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Heavy Duty Plastic Pallets",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/10.png"],
-
-    description:
-      "Heavy Duty Plastic Pallets are drum pallets manufactured from 100% virgin HDPE using injection moulded construction. Featuring three runners, four-way entry and a plain top design, these pallets offer a static load capacity of 4000 kg, dynamic load capacity of 1000 kg and rack load capacity of 1000 kg. They can be handled using forklifts, stackers and hand pallet trucks.",
-
-    specifications: [
-      ["Product Type", "Heavy Duty Plastic Pallet"],
-      ["Pallet Size", "1200 × 1200 mm"],
-      ["Pallet Height", "150 mm"],
-      ["Pallet Type", "Drum Pallet"],
-      ["Material", "100% Virgin HDPE"],
-      ["Manufacturing Process", "Injection Moulded"],
-      ["Top Deck Type", "Plain Top"],
-      ["Number of Runners", "3 Runners"],
-      ["Entry Type", "4 Way"],
-      ["Static Load Capacity", "4000 kg"],
-      ["Dynamic Load Capacity", "1000 kg"],
-      ["Rack Load Capacity", "1000 kg"],
-      ["Handling Equipment", "Forklift, Stacker, Hand Pallet Truck"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 11,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Poly Pallet",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/11.png"],
-
-    description:
-      "Poly Pallets are manufactured from recycled HDPE and reinforced with steel sections for handling heavy loads. Featuring a stackable design, two-way entry and a top deck with gaps, these pallets provide a static load capacity of 3000 kg. They are suitable for warehouse storage, cold storage, food handling and FMCG applications.",
-
-    specifications: [
-      ["Product Type", "Poly Plastic Pallet"],
-      ["Pallet Size", "1500 × 900 mm"],
-      ["Pallet Height", "125 mm"],
-      ["Material", "Recycled HDPE"],
-      ["Pallet Type", "Stackable"],
-      ["Top Deck Type", "Top Gaps"],
-      ["Static Load Capacity", "3000 kg"],
-      ["Entry Type", "2 Way"],
-      ["Pallet Weight", "22 kg"],
-      ["Colour", "Black"],
-      ["Reinforcement", "Steel Sections"],
-      ["Applications", "Warehouse, Cold Storage, Food, FMCG"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 12,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Plastic Industrial Pallets",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/12.png"],
-
-    description:
-      "Plastic Industrial Pallets are manufactured from 100% virgin HDPE using injection moulded construction. Featuring a plain top deck, three runners and four-way entry, these racking pallets offer a static load capacity of 4000 kg, dynamic load capacity of 1000 kg and rack load capacity of 1000 kg. They can be handled using forklifts, stackers and hand pallet trucks.",
-
-    specifications: [
-      ["Product Type", "Plastic Industrial Pallet"],
-      ["Pallet Size", "1200 × 1000 mm"],
-      ["Pallet Height", "150 mm"],
-      ["Material", "100% Virgin HDPE"],
-      ["Manufacturing Process", "Injection Moulded"],
-      ["Pallet Type", "Racking"],
-      ["Top Deck Type", "Plain Top"],
-      ["Number of Runners", "3 Runners"],
-      ["Entry Type", "4 Way"],
-      ["Static Load Capacity", "4000 kg"],
-      ["Dynamic Load Capacity", "1000 kg"],
-      ["Rack Load Capacity", "1000 kg"],
-      ["Handling Equipment", "Forklift, Stacker, Hand Pallet Truck"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 13,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Plastic Pallets Z-Type",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/13.png"],
-
-    description:
-      "Plastic Pallets Z-Type are HDPE drum pallets featuring a closed top deck and four-way entry for convenient material handling. Measuring 1200 × 1200 mm, these pallets offer a static load capacity of 4000 kg and are designed for industrial drum storage and handling applications.",
-
-    specifications: [
-      ["Product Type", "Z-Type Plastic Pallet"],
-      ["Pallet Size", "1200 × 1200 mm"],
-      ["Material", "HDPE"],
-      ["Pallet Type", "Drum Pallet"],
-      ["Top Deck Type", "Closed"],
-      ["Static Load Capacity", "4000 kg"],
-      ["Entry Type", "4 Way"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 14,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Industrial Plastic Pallet",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/14.png"],
-
-    description:
-      "Industrial Plastic Pallets feature roto moulded construction with a closed top deck, three runners and internal steel and PUF reinforcement. Designed for racking applications, these blue pallets have a static load capacity of 3000 kg and a two-way entry design. They are suitable for pharmaceutical and food storage applications.",
-
-    specifications: [
-      ["Product Type", "Industrial Plastic Pallet"],
-      ["Pallet Size", "1200 × 1000 mm"],
-      ["Pallet Height", "150 mm"],
-      ["Pallet Type", "Racking"],
-      ["Manufacturing Process", "Roto Moulded"],
-      ["Top Deck Type", "Closed"],
-      ["Entry Type", "2 Way"],
-      ["Static Load Capacity", "3000 kg"],
-      ["Pallet Weight", "18 kg"],
-      ["Number of Runners", "3 Runners"],
-      ["Reinforcement", "Steel and PUF"],
-      ["Colour", "Blue"],
-      ["Applications", "Pharma, Food"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 15,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "1300×1100 mm Industrial Plastic Pallet",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/15.png"],
-
-    description:
-      "This industrial plastic pallet is manufactured from HDPE and features a perforated top deck, four-way entry and a black finish. Designed for non-racking applications, it offers a static load capacity of 2000 kg and a dynamic load capacity of 700 kg under uniformly distributed loads. It is suitable for FMCG goods storage and handling using forklifts, stackers and hand pallet trucks.",
-
-    specifications: [
-      ["Product Type", "Industrial Plastic Pallet"],
-      ["Pallet Size", "1300 × 1100 mm"],
-      ["Pallet Height", "130 mm"],
-      ["Material", "HDPE"],
-      ["Pallet Type", "Non-Racking"],
-      ["Top Deck Type", "Perforated"],
-      ["Static Load Capacity", "2000 kg"],
-      ["Dynamic Load Capacity", "700 kg UDL"],
-      ["Entry Type", "4 Way"],
-      ["Pallet Weight", "13 kg"],
-      ["Colour", "Black"],
-      ["Handling Equipment", "Forklift, Stacker, Hand Pallet Truck"],
-      ["Application", "FMCG Goods Storage"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 16,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Plastic Pallets",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/16.png"],
-
-    description:
-      "These plastic pallets are made from HDPE material and feature a closed top deck with four-way entry for convenient storage and material handling. Designed for non-racking applications, these blue pallets have a static load capacity of 2000 kg and are suitable for warehouses, cold storage, food handling and pharmaceutical applications.",
-
-    specifications: [
-      ["Product Type", "Plastic Pallet"],
-      ["Pallet Size", "1200 × 1000 mm"],
-      ["Material", "HDPE"],
-      ["Pallet Type", "Non-Racking"],
-      ["Top Deck Type", "Closed"],
-      ["Static Load Capacity", "2000 kg"],
-      ["Entry Type", "4 Way"],
-      ["Pallet Weight", "12 kg"],
-      ["Colour", "Blue"],
-      ["Applications", "Warehouse, Cold Storage, Food, Pharma"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 17,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Plastic Pallets G-Type",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/17.png"],
-
-    description:
-      "Plastic Pallets G-Type are made from HDPE material and feature a perforated top deck with four-way entry for convenient material handling. Designed as lightweight export pallets, they offer a static load capacity of 2000 kg and are suitable for export packaging, storage and material handling applications.",
-
-    specifications: [
-      ["Product Type", "G-Type Plastic Pallet"],
-      ["Pallet Size", "1200 × 1000 mm"],
-      ["Material", "HDPE"],
-      ["Pallet Type", "Export Light"],
-      ["Top Deck Type", "Perforated"],
-      ["Static Load Capacity", "2000 kg"],
-      ["Entry Type", "4 Way"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 18,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Plastic Pallets",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/18.png"],
-
-    description:
-      "These plastic pallets are made from HDPE and feature a perforated top deck with six runners and four-way entry for convenient material handling. Designed as lightweight export pallets, they measure 1200 × 1000 × 135 mm and offer a static load capacity of 2000 kg, making them suitable for storage and export applications.",
-
-    specifications: [
-      ["Product Type", "Plastic Pallet"],
-      ["Pallet Size", "1200 × 1000 mm"],
-      ["Pallet Height", "135 mm"],
-      ["Material", "HDPE"],
-      ["Pallet Type", "Export Light"],
-      ["Top Deck Type", "Perforated"],
-      ["Static Load Capacity", "2000 kg"],
-      ["Entry Type", "4 Way"],
-      ["Number of Runners", "6 Runners"],
-      ["Colour", "Black"],
-      ["Applications", "Storage, Export"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 19,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Industrial Plastic Pallet",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/19.png"],
-
-    description:
-      "Industrial Plastic Pallets feature a plain top design suitable for industrial storage and material handling applications. Available in 1200 × 1000 × 170 mm and 1200 × 1200 × 170 mm sizes, these pallets provide a practical solution for organizing and handling goods in warehouse and industrial environments.",
-
-    specifications: [
-      ["Product Type", "Industrial Plastic Pallet"],
-      ["Pallet Size", "1200 × 1000 mm"],
-      ["Available Dimensions", "1200 × 1000 × 170 mm, 1200 × 1200 × 170 mm"],
-      ["Top Deck Type", "Plain Top"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 20,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Plastic Pallets",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/20.png"],
-
-    description:
-      "These A-Type plastic pallets are designed for storage and material handling applications. Measuring 1200 × 1000 × 150 mm, they feature a perforated top deck, three runners and eight reinforcing rods. The blue pallets provide a practical solution for organizing and handling goods in industrial storage environments.",
-
-    specifications: [
-      ["Product Type", "A-Type Plastic Pallet"],
-      ["Pallet Size", "1200 × 1000 mm"],
-      ["Pallet Height", "150 mm"],
-      ["Top Deck Type", "Perforated"],
-      ["Number of Runners", "3 Runners"],
-      ["Number of Reinforcing Rods", "8 Rods"],
-      ["Colour", "Blue"],
-      ["Application", "Storage"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 21,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Pilco Plastic Crates for Vegetables",
-    model: "",
-
-    images: [
-      "/img/Plastic-Pallets/21.png",
-      "/img/Plastic-Pallets/21.1.png",
-      "/img/Plastic-Pallets/21.2.png",
-    ],
-
-    description:
-      "Pilco Plastic Crates for Vegetables are available in recycled and virgin plastic materials. These injection moulded, perforated crates are designed for storing and handling vegetables and other food products. With a stackable design and a capacity of 20 kg, they are suitable for vegetable suppliers, food storage and distribution applications.",
-
-    specifications: [
-      ["Product Type", "Plastic Vegetable Crate"],
-      ["Material", "Polypropylene (PP)"],
-      ["Outer Dimensions (L × W × H)", "540 × 360 × 290 mm"],
-      ["Construction Type", "Injection Moulded"],
-      ["Perforation Type", "Perforated"],
-      ["Stackable", "Yes"],
-      ["Foldable", "No"],
-      ["Partition", "No"],
-      ["Shape", "Square, Rectangular"],
-      ["Storage Application", "Edible Products"],
-      ["Available Colours", "Blue, Red, Green, Yellow"],
-      ["Load Capacity", "20 kg"],
-      ["Crate Style", "Solid Box, Mesh"],
-      ["Crate Weight", "1.5 kg"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 22,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "PEB Shed Structures",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/22.png", "/img/Plastic-Pallets/22.1.png"],
-
-    description:
-      "Pilco manufactures and supplies PEB Shed Structures designed for warehouse and industrial applications. These modular structures feature a single-span design, painted surface treatment and a single-skin wall and roof system. With moisture-resistant and non-corrosive features, they provide a practical solution for covered storage and commercial spaces.",
-
-    specifications: [
-      ["Product Type", "PEB Shed Structure"],
-      ["Built-up Area", "5000 sq. ft."],
-      ["Application", "Warehouse"],
-      ["Eave Height", "6 m (20 ft)"],
-      ["Clear Span", "Yes (Single Span)"],
-      ["Crane Provision", "Up to 5 Ton"],
-      ["Wall and Roof System", "Single Skin Sheet"],
-      ["Surface Treatment", "Painted"],
-      ["Waterproof", "Yes"],
-      ["Brand", "Pilco"],
-      ["Build Type", "Modular"],
-      ["Material", "PVC"],
-      ["Uses", "House, Kiosk, Toilet, Shop"],
-      ["Features", "Moisture Resistant, Non-Corrosive"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 23,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Plastic Storage Bin",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/23.png", "/img/Plastic-Pallets/23.1.png"],
-
-    description:
-      "Pilco Plastic Storage Bins are available in recycled and virgin plastic materials for storage and material handling applications. These injection-moulded HDPE bins feature a rectangular, stackable design without partitions or lids, making them suitable for organizing and storing items in industrial and warehouse environments.",
-
-    specifications: [
-      ["Product Type", "Plastic Storage Bin"],
-      ["Brand", "Pilco"],
-      ["Material", "HDPE"],
-      ["Shape", "Rectangular"],
-      ["Stackable", "Yes"],
-      ["Partition Type", "Without Partition"],
-      ["Lid Type", "Without Lid"],
-      ["Thickness", "2 mm"],
-      ["Volume", "0.03 CBM"],
-      ["Manufacturing Process", "Injection Moulded"],
-      ["Bin II Size", "350 × 210 × 205 mm"],
-      ["Bin III Size", "210 × 165 × 110 mm"],
-      ["Capacity", "50 kg"],
-      ["Load Capacity", "10 kg"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 24,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Industrial Steel Fabricated Shed Structure",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/24.png"],
-
-    description:
-      "Pilco Industrial Steel Fabricated Shed Structures are made from quality steel sections with metal cladding sheets. The company designs, engineers, manufactures and installs industrial sheds using bolted steel construction, GI sheet wall panels and sloped roofing. These modular structures are suitable for industrial applications, with mezzanine flooring options available for cold storage facilities.",
-
-    specifications: [
-      ["Product Type", "Industrial Steel Fabricated Shed Structure"],
-      ["Structure Type", "Industrial Shed"],
-      ["Material", "Steel"],
-      ["Usage Application", "Industrial"],
-      ["Number of Floors", "Single Floor"],
-      ["Use", "Shed Structure"],
-      ["Wall Panel Type", "GI Sheet"],
-      ["Roof Type", "Slope Roof"],
-      ["Colour", "Plain"],
-      ["Flooring Type", "Concrete Floor"],
-      ["Service Mode", "Supply and Installation"],
-      ["Build Type", "Modular, Panel Build"],
-      ["Features", "Eco-Friendly, Easily Assembled"],
-      ["Portable", "Yes"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 25,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Plastic Pallets Baggy Green Special Pallet",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/25.png"],
-
-    description:
-      "Plastic Pallets Baggy Green Special Pallet features a solid surface design with a baggy green finish and rectangular openings for material handling. Designed for industrial storage and warehouse applications, this pallet provides a practical solution for organizing, storing and moving goods.",
-
-    specifications: [
-      ["Product Type", "Special Plastic Pallet"],
-      ["Pallet Dimensions", "1200 × 1000 × 136 mm"],
-      ["Colour", "Baggy Green"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 26,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "135 Plastic Pallets J-Type",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/26.png"],
-
-    description:
-      "135 Plastic Pallets J-Type are designed for industrial storage and material handling applications. These pallets offer a practical solution for organizing and moving goods in warehouses, with a design suitable for everyday storage and logistics requirements.",
-
-    specifications: [
-      ["Product Type", "J-Type Plastic Pallet"],
-      ["Pallet Category", "Plastic Pallets"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
-
-  {
-    id: 27,
-    category: "plastic-pallets",
-    categoryLabel: "Plastic Pallets",
-    name: "Plastic Pallets J-Type",
-    model: "",
-
-    images: ["/img/Plastic-Pallets/27.png"],
-
-    description:
-      "Plastic Pallets J-Type feature a black, open-grid top deck designed for storage and material handling applications. Their raised support structure allows goods to be placed above the floor, making them a practical option for organizing and handling products in warehouses and industrial storage areas.",
-
-    specifications: [
-      ["Product Type", "J-Type Plastic Pallet"],
-      ["Top Deck Type", "Open Grid"],
-      ["Colour", "Black"],
-      ["Application", "Storage and Material Handling"],
-    ],
-
-    whatsapp: "+919810074596",
-    phone: "+919810074596",
-  },
+  
+{
+  id: 5,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-002 With 4 Steel Bones Plastic Pallet",
+  model: "PIL-002 WITH 4 STEEL BONES",
+
+  images: [
+    "/img/Plastic-Pallets/5.png", "/img/Plastic-Pallets/5.1.png"
+  ],
+
+  description:
+    "PILCO PIL-002 With 4 Steel Bones Plastic Pallet is manufactured from HDPE material and designed for heavy-duty industrial storage and material handling. Featuring a plain top surface, three runners, and four steel reinforcements, it offers a static load capacity of 6000 kg, dynamic load capacity of 1200 kg, and racking capacity of 1200 kg. Suitable for warehouses, factories, and industrial storage applications.",
+
+  specifications: [
+    ["Material", "HDPE"],
+    ["Dimension", "1200 x 1000 x 160 mm"],
+    ["Static", "6000 KG"],
+    ["Dynamic", "1200 KG"],
+    ["Racking", "1200 KG"],
+    ["Top Surface", "Plain Top, 3 Runner"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+{
+  id: 6,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-003 Plastic Pallet",
+  model: "PIL-003",
+
+  images: [
+    "/img/Plastic-Pallets/6.png", "/img/Plastic-Pallets/6.1.png"
+  ],
+
+  description:
+    "PILCO PIL-003 Plastic Pallet is manufactured from durable HDPE material for efficient warehouse storage, logistics, and industrial material handling. Designed with a perforated top surface and nine legs, it features a compact 1200 x 1000 x 135 mm structure with a static load capacity of 2500 kg and dynamic load capacity of up to 750 kg. This pallet offers a practical storage solution for warehouses and distribution facilities.",
+
+  specifications: [
+    ["Material", "HDPE"],
+    ["Dimension", "1200 x 1000 x 135 mm"],
+    ["Static", "2500 KG"],
+    ["Dynamic", "UPTO 750 KG"],
+    ["Racking", "NA"],
+    ["Top Surface", "PERFORATED, 9 LEGS"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+
+{
+  id: 7,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-004 Plastic Pallet",
+  model: "PIL-004",
+
+  images: [
+    "/img/Plastic-Pallets/7.png", "/img/Plastic-Pallets/7.1.png"
+  ],
+
+  description:
+    "PILCO PIL-004 Plastic Pallet is manufactured from durable HDPE material and designed for efficient industrial storage and material handling. Featuring a perforated top surface with nine legs, it provides a static load capacity of 2000 kg and a dynamic load capacity of 1000 kg. Its 1200 x 1000 x 135 mm design makes it suitable for warehouses, logistics, and distribution facilities.",
+
+  specifications: [
+    ["Material", "HDPE"],
+    ["Dimension", "1200 x 1000 x 135 mm"],
+    ["Static", "2000 KG"],
+    ["Dynamic", "1000 KG"],
+    ["Racking", "NA"],
+    ["Top Surface", "PERFORATED, 9 LEGS"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+{
+  id: 8,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-005 Plastic Pallet",
+  model: "PIL-005",
+
+  images: [
+    "/img/Plastic-Pallets/8.png", "/img/Plastic-Pallets/8.1.png"
+  ],
+
+  description:
+    "PILCO PIL-005 Plastic Pallet is made from HDPE material for reliable warehouse storage and industrial material handling. Designed with a plain top surface and nine legs, it offers a static load capacity of 2000 kg and a dynamic load capacity of up to 1000 kg. Measuring 1200 x 1000 x 135 mm, it provides a practical non-racking storage solution for warehouses and logistics operations.",
+
+  specifications: [
+    ["Material", "HDPE"],
+    ["Dimension", "1200 x 1000 x 135 mm"],
+    ["Static", "2000 KG"],
+    ["Dynamic", "UPTO 1000 KG"],
+    ["Racking", "NA"],
+    ["Top Surface", "PLAIN TOP, 9 LEGS"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+
+{
+  id: 9,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-006 Plastic Pallet",
+  model: "PIL-006",
+
+  images: [
+    "/img/Plastic-Pallets/9.png", "/img/Plastic-Pallets/9.1.png"
+  ],
+
+  description:
+    "PILCO PIL-006 Plastic Pallet is manufactured from durable HDPE material for industrial storage and material handling. Featuring a perforated top surface with six runners, it offers a static load capacity of 2000 kg and a dynamic load capacity of up to 750 kg. Measuring 1200 x 1000 x 135 mm, this non-racking pallet is suitable for warehouse storage, logistics, and material handling applications.",
+
+  specifications: [
+    ["Material", "HDPE"],
+    ["Dimension", "1200 x 1000 x 135 MM"],
+    ["Static", "2000 KG"],
+    ["Dynamic", "UPTO 750 KG"],
+    ["Racking", "NA"],
+    ["Top Surface", "PERFORATED, 6 RUNNER"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+{
+  id: 10,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-007 Plastic Pallet",
+  model: "PIL-007",
+
+  images: [
+    "/img/Plastic-Pallets/10.png", "/img/Plastic-Pallets/10.1.png"
+  ],
+
+  description:
+    "PILCO PIL-007 Plastic Pallet is made from HDPE material and designed for warehouse storage, logistics, and industrial material handling. It features a perforated top surface with six runners, offering a static load capacity of 2000 kg and a dynamic load capacity of up to 750 kg. Its 1100 x 1100 x 120 mm dimensions provide a practical non-racking storage solution for handling and organizing goods.",
+
+  specifications: [
+    ["Material", "HDPE"],
+    ["Dimension", "1100 x 1100 x 120 mm"],
+    ["Static", "2000 KG"],
+    ["Dynamic", "UPTO 750 KG"],
+    ["Racking", "NA"],
+    ["Top Surface", "PERFORATED, 6 RUNNER"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+
+{
+  id: 11,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-008 Plastic Pallet",
+  model: "PIL-008",
+
+  images: [
+    "/img/Plastic-Pallets/11.png", "/img/Plastic-Pallets/11.1.png"
+  ],
+
+  description:
+    "PILCO PIL-008 Plastic Pallet is manufactured from durable HDPE material for warehouse storage and industrial material handling. Featuring a perforated top surface with three runners, it provides a static load capacity of 2000 kg and a dynamic load capacity of up to 1000 kg. Measuring 1200 x 800 x 145 mm, this non-racking pallet is suitable for organized storage, logistics, and material movement.",
+
+  specifications: [
+    ["Material", "HDPE"],
+    ["Dimension", "1200 X 800 X 145 MM"],
+    ["Static", "2000 KG"],
+    ["Dynamic", "UPTO 1000 KG"],
+    ["Racking", "NA"],
+    ["Top Surface", "PERFORATED, 3 RUNNER"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+{
+  id: 12,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-008 With 4 Steel Bones Plastic Pallet",
+  model: "PIL-008 WITH 4 STEEL BONES",
+
+  images: [
+    "/img/Plastic-Pallets/12.png", "/img/Plastic-Pallets/12.1.png"
+  ],
+
+  description:
+    "PILCO PIL-008 With 4 Steel Bones Plastic Pallet is a reinforced HDPE pallet designed for industrial storage and material handling. Featuring a perforated top surface, three runners, and four steel reinforcements, it offers a static load capacity of 2500 kg, dynamic load capacity of up to 1500 kg, and racking capacity of up to 750 kg. Its 1200 x 800 x 145 mm dimensions make it suitable for warehouse and logistics applications.",
+
+  specifications: [
+    ["Material", "HDPE"],
+    ["Dimension", "1200 X 800 X 145 MM"],
+    ["Static", "2500 KG"],
+    ["Dynamic", "UPTO 1500 KG"],
+    ["Racking", "UPTO 750 KG"],
+    ["Top Surface", "PERFORATED, 3 RUNNER"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+
+
+{
+  id: 13,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-009 Plastic Pallet",
+  model: "PIL-009",
+
+  images: [
+    "/img/Plastic-Pallets/13.png", "/img/Plastic-Pallets/13.1.png"
+  ],
+
+  description:
+    "PILCO PIL-009 Plastic Pallet is manufactured using 60% virgin and 40% reprocessed HDPE material for industrial storage and material handling. Featuring a perforated top surface with nine legs, it offers a static load capacity of 2000 kg and a dynamic load capacity of up to 500 kg. Measuring 1200 x 1000 x 135 mm, this non-racking pallet is suitable for warehouse storage, logistics, and general material handling applications.",
+
+  specifications: [
+    ["Material", "60% VIRGIN, 40% REPROCESSED HDPE"],
+    ["Dimension", "1200 X 1000 X 135 MM"],
+    ["Static", "2000 KG"],
+    ["Dynamic", "UPTO 500 KG"],
+    ["Racking", "NA"],
+    ["Top Surface", "PERFORATED, 9 LEGS"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+{
+  id: 14,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-010 Plastic Pallet",
+  model: "PIL-010",
+
+  images: [
+    "/img/Plastic-Pallets/14.png", "/img/Plastic-Pallets/14.1.png"
+  ],
+
+  description:
+    "PILCO PIL-010 Plastic Pallet is made from 60% virgin and 40% reprocessed HDPE material for efficient warehouse storage and industrial material handling. Designed with a plain top surface and nine legs, it provides a static load capacity of 2000 kg and a dynamic load capacity of up to 750 kg. With dimensions of 1200 x 1000 x 135 mm, this non-racking pallet is suitable for organized storage and logistics operations.",
+
+  specifications: [
+    ["Material", "60% VIRGIN, 40% REPROCESSED HDPE"],
+    ["Dimension", "1200 X 1000 X 135 MM"],
+    ["Static", "2000 KG"],
+    ["Dynamic", "UPTO 750 KG"],
+    ["Racking", "NA"],
+    ["Top Surface", "PLAIN TOP, 9 LEGS"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+
+{
+  id: 15,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-011 Plastic Pallet",
+  model: "PIL-011",
+
+  images: [
+    "/img/Plastic-Pallets/15.png", "/img/Plastic-Pallets/15.1.png"
+  ],
+
+  description:
+    "PILCO PIL-011 Plastic Pallet is manufactured using 60% virgin and 40% reprocessed HDPE material for industrial storage and material handling. Featuring a perforated top surface with six runners, it provides a static load capacity of 2000 kg and a dynamic load capacity of approximately 750–1000 kg. Measuring 1100 x 1100 x 120 mm, this non-racking pallet is suitable for warehouse storage, logistics, and general material handling applications.",
+
+  specifications: [
+    ["Material", "60% VIRGIN, 40% REPROCESSED HDPE"],
+    ["Dimension", "1100 X 1100 X 120 MM"],
+    ["Static", "2000 KG"],
+    ["Dynamic", "750-1000 KG APPROX"],
+    ["Racking", "NA"],
+    ["Top Surface", "PERFORATED, 6 RUNNER"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+{
+  id: 16,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-012 Plastic Pallet",
+  model: "PIL-012",
+
+  images: [
+    "/img/Plastic-Pallets/16.png", "/img/Plastic-Pallets/16.1.png"
+  ],
+
+  description:
+    "PILCO PIL-012 Plastic Pallet is made from 60% virgin and 40% reprocessed HDPE material for efficient warehouse storage and industrial material handling. Designed with a perforated top surface and three runners, it offers a static load capacity of 2000 kg and a dynamic load capacity of up to 1000 kg. Its 1200 x 800 x 145 mm dimensions make it a practical non-racking solution for warehouses, logistics, and material movement.",
+
+  specifications: [
+    ["Material", "60% VIRGIN, 40% REPROCESSED HDPE"],
+    ["Dimension", "1200 X 800 X 145 MM"],
+    ["Static", "2000 KG"],
+    ["Dynamic", "UPTO 1000 KG"],
+    ["Racking", "NA"],
+    ["Top Surface", "PERFORATED, 3 RUNNER"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+
+{
+  id: 17,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-014 Plastic Pallet",
+  model: "PIL-014",
+
+  images: [
+    "/img/Plastic-Pallets/17.png", "/img/Plastic-Pallets/17.1.png"
+  ],
+
+  description:
+    "PILCO PIL-014 Plastic Pallet is manufactured using 60% virgin and 40% reprocessed HDPE material for heavy-duty industrial storage and material handling. Featuring a perforated top surface with six runners, it offers a static load capacity of 4000 kg and a dynamic load capacity of up to 1500 kg. Measuring 1100 x 1100 x 150 mm, this non-racking pallet is suitable for warehouses, logistics, and industrial storage applications.",
+
+  specifications: [
+    ["Material", "60% VIRGIN, 40% REPROCESSED HDPE"],
+    ["Dimension", "1100 x 1100 x 150"],
+    ["Static", "4000 KG"],
+    ["Dynamic", "UPTO 1500 KG"],
+    ["Racking", "NA"],
+    ["Top Surface", "PERFORATED, 6 RUNNER"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+{
+  id: 18,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-015 Plastic Pallet",
+  model: "PIL-015",
+
+  images: [
+    "/img/Plastic-Pallets/18.png", "/img/Plastic-Pallets/18.1.png"
+  ],
+
+  description:
+    "PILCO PIL-015 Plastic Pallet is made from 60% virgin and 40% reprocessed HDPE material for warehouse storage and industrial material handling. Designed with a perforated top surface and six runners, it provides a static load capacity of 2000 kg and a dynamic load capacity of up to 700 kg. With dimensions of 1300 x 1100 x 120 mm, this non-racking pallet is suitable for organized warehouse storage, logistics, and general material handling operations.",
+
+  specifications: [
+    ["Material", "60% VIRGIN, 40% REPROCESSED HDPE"],
+    ["Dimension", "1300 X 1100 X 120 MM"],
+    ["Static", "2000 KG"],
+    ["Dynamic", "UPTO 700 KG"],
+    ["Racking", "NA"],
+    ["Top Surface", "PERFORATED, 6 RUNNER"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+
+{
+  id: 19,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-016 Plastic Pallet",
+  model: "PIL-016",
+
+  images: [
+    "/img/Plastic-Pallets/19.png", "/img/Plastic-Pallets/19.1.png"
+  ],
+
+  description:
+    "PILCO PIL-016 Plastic Pallet is manufactured from semi virgin HDPE material for heavy-duty industrial storage and material handling. Featuring a plain top surface with nine legs, it offers a static load capacity of 4000 kg and a dynamic load capacity of up to 1000 kg. Its 1200 x 1000 x 135 mm dimensions make it a practical non-racking pallet for warehouses, logistics, and industrial storage applications.",
+
+  specifications: [
+    ["Material", "SEMI VIRGIN HDPE"],
+    ["Dimension", "1200 x 1000 x 135"],
+    ["Static", "4000 KG"],
+    ["Dynamic", "UPTO 1000 KG"],
+    ["Racking", "NA"],
+    ["Top Surface", "PLAIN TOP, 9 LEGS"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+{
+  id: 20,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-017 Plastic Pallet",
+  model: "PIL-017",
+
+  images: [
+    "/img/Plastic-Pallets/20.png", "/img/Plastic-Pallets/20.1.png"
+  ],
+
+  description:
+    "PILCO PIL-017 Plastic Pallet is manufactured from durable HDPE material for industrial storage, warehouse operations, and material handling. Featuring a plain top surface with three runners, it provides a static load capacity of 4000 kg, dynamic load capacity of up to 1000 kg, and racking capacity of up to 500 kg. Measuring 1200 x 1000 x 160 mm, this pallet is suitable for organized warehouse storage and logistics applications.",
+
+  specifications: [
+    ["Material", "HDPE"],
+    ["Dimension", "1200 X 1000 X 160 MM"],
+    ["Static", "4000 KG"],
+    ["Dynamic", "UPTO 1000 KG"],
+    ["Racking", "UPTO 500 KG"],
+    ["Top Surface", "PLAIN TOP, 3 RUNNER"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+
+{
+  id: 21,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-017 With Steel Bones Plastic Pallet",
+  model: "PIL-017 WITH STEEL BONES",
+
+  images: [
+    "/img/Plastic-Pallets/21.png", "/img/Plastic-Pallets/21.1.png"
+  ],
+
+  description:
+    "PILCO PIL-017 With Steel Bones Plastic Pallet is manufactured from durable HDPE material and reinforced with steel bones for heavy-duty industrial storage and material handling. Featuring a plain top surface with three runners, it offers a static load capacity of 6000 kg, dynamic load capacity of up to 1200 kg, and racking capacity of up to 1000 kg. Its 1200 x 1000 x 160 mm dimensions make it suitable for warehouse storage and logistics applications.",
+
+  specifications: [
+    ["Material", "HDPE"],
+    ["Dimension", "1200 X 1000 X 160 MM"],
+    ["Static", "6000 KG"],
+    ["Dynamic", "UPTO 1200 KG"],
+    ["Racking", "UPTO 1000 KG"],
+    ["Top Surface", "PLAIN TOP, 3 RUNNER"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+{
+  id: 22,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-018 Plastic Pallet",
+  model: "PIL-018",
+
+  images: [
+    "/img/Plastic-Pallets/22.png", "/img/Plastic-Pallets/22.1.png"
+  ],
+
+  description:
+    "PILCO PIL-018 Plastic Pallet is manufactured from HDPE material and features a perforated, reversible top surface for versatile industrial storage and material handling. Measuring 1200 x 1000 x 150 mm, it is available with static load capacities of 3000, 4000, or 6000 kg, dynamic load capacities of up to 750, 1000, or 1200 kg, and racking capacities of NA, 300, or 700 kg depending on the configuration. Suitable for warehouses, factories, and logistics operations.",
+
+  specifications: [
+    ["Material", "HDPE"],
+    ["Dimension", "1200 X 1000 X 150 MM"],
+    ["Static", "3000/4000/6000 KG"],
+    ["Dynamic", "UPTO 750/1000/1200 KG"],
+    ["Racking", "NA/300/700 KG"],
+    ["Top Surface", "PERFORATED, REVERSIBLE"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
+
+{
+  id: 23,
+  category: "plastic-pallets",
+  categoryLabel: "Plastic Pallets",
+  name: "PIL-019 Plastic Pallet",
+  model: "PIL-019",
+
+  images: [
+    "/img/Plastic-Pallets/23.png",
+  ],
+
+  description:
+    "PILCO PIL-019 Plastic Pallet is manufactured from recycled plastic and designed for industrial storage, warehouse operations, and material handling. Available in custom dimensions and top surface configurations, it offers a static load capacity of 2000–5000 kg and a dynamic load capacity of 500–1000 kg. This non-racking pallet provides a customizable solution for different storage and logistics requirements.",
+
+  specifications: [
+    ["Material", "RECYCLED PLASTIC"],
+    ["Dimension", "CUSTOM"],
+    ["Static", "2000 - 5000 KG"],
+    ["Dynamic", "500-1000 KG"],
+    ["Racking", "NA"],
+    ["Top Surface", "CUSTOM"],
+  ],
+
+  whatsapp: "+919810074596",
+  phone: "+919810074596",
+},
 
   // Cable Tray start
 

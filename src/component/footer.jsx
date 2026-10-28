@@ -104,27 +104,27 @@ const Footer = () => {
 
                 <ul className="footer-links list-unstyled">
                   <li>
-                    <Link to="/warehouse-racks">Warehouse Racks</Link>
+                    <Link to="/plastic-pallets-manufacturer">Plastic Pallets</Link>
                   </li>
 
                   <li>
-                    <Link to="/heavy-duty-racks">Heavy Duty Racks</Link>
+                    <Link to="/racks-manufacturer">Racks</Link>
                   </li>
 
                   <li>
-                    <Link to="/plastic-pallets">Plastic Pallets</Link>
+                    <Link to="/mezzanine-floors-manufacturer">Mezzanine Floors</Link>
                   </li>
 
                   <li>
-                    <Link to="/plastic-crates">Plastic Crates</Link>
+                    <Link to="/flc-boxes-manufacturer">FLC Boxes</Link>
                   </li>
 
                   <li>
-                    <Link to="/cable-trays">Cable Trays</Link>
+                    <Link to="/cable-trays-manufacturer">Cable Trays</Link>
                   </li>
 
                   <li>
-                    <Link to="/work-platforms">Work Platforms</Link>
+                    <Link to="/strut-channels">Strut Channels</Link>
                   </li>
                 </ul>
               </div>
@@ -142,7 +142,7 @@ const Footer = () => {
                                     Phone
                                 </span> */}
 
-                      <a href="tel:+919810074596">+91 98100 74596</a><br/>
+                      <a href="tel:+919810074596">+91 98100 74596</a><br />
                       <a href="tel:+919711481181">+91 97114 81181</a><br />
                       <a href="tel:+919311175747">+91 93111 75747</a>
 

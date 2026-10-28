@@ -8,7 +8,6 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
 import PlasticPallets from "./pages/PlasticPallets";
-import CableTrays from "./pages/CableTrays";
 import WarehouseRacks from "./pages/WarehouseRacks";
 import PlasticCrates from "./pages/PlasticCrates";
 import IndustrialStorageCrates from "./pages/IndustrialStorageCrates";
@@ -36,6 +35,14 @@ import Raceways from "./pages/Raceways";
 import JunctionBoxes from "./pages/JunctionBoxes";
 import NewItems from "./pages/NewItems";
 
+// new products import
+import Racks from "./pages/Racks";
+import MezzanineFloors from "./pages/MezzanineFloors";
+import FlcBoxes from "./pages/FlcBoxes"
+import CableTrays from "./pages/CableTrays";
+
+
+
 
 
 import Footer from "./component/footer";
@@ -51,8 +58,6 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/plastic-pallets" element={<PlasticPallets />} />
-        <Route path="/cable-trays" element={<CableTrays />} />
         <Route path="/warehouse-racks" element={<WarehouseRacks />} />
         <Route path="/plastic-crates" element={<PlasticCrates />} />
         <Route path="/industrial-storage-crates" element={<IndustrialStorageCrates />} />
@@ -79,6 +84,15 @@ const App = () => {
         <Route path="/raceways" element={<Raceways />} />
         <Route path="/junction-boxes" element={<JunctionBoxes />} />
         <Route path="/new-items" element={<NewItems />} />
+
+        {/* new products */}
+        <Route path="/racks-manufacturer" element={<Racks/>} />
+        <Route path="/mezzanine-floors-manufacturer" element={<MezzanineFloors/>} />
+        <Route path="/flc-boxes-manufacturer" element={<FlcBoxes/>}/>
+        <Route path="/cable-trays-manufacturer" element={<CableTrays />} />
+        <Route path="/plastic-pallets-manufacturer" element={<PlasticPallets />} />
+
+
 
       </Routes>
 
