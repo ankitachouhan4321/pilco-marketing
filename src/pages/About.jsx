@@ -1,11 +1,10 @@
 import React from 'react'
-import ProductInfoCard from "../component/ProductInfoCard"
 
 const About = () => {
    const stats = [
      {
        icon: "fa-calendar-check",
-       value: "39+",
+       value: "58+",
        label: "Years of Experience",
      },
      {
@@ -109,7 +108,7 @@ const About = () => {
 
                 {/* Experience Badge */}
                 <div className="experience-badge">
-                  <div className="experience-number">39+</div>
+                  <div className="experience-number">58+</div>
 
                   <span>Years of Experience</span>
                 </div>
@@ -368,7 +367,7 @@ const About = () => {
         </div>
       </section>
 
-      <ProductInfoCard/>
+    
     </>
   );
 }

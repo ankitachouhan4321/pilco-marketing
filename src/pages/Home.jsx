@@ -491,7 +491,7 @@ const Home = () => {
 
                 {/* Experience Badge */}
                 <div className="experience-badge">
-                  <div className="experience-number">39+</div>
+                  <div className="experience-number">58+</div>
 
                   <span>Years of Experience</span>
                 </div>
@@ -1260,7 +1260,7 @@ const Home = () => {
             <div className="col-lg-3 col-sm-4 col-6">
               <div className="stat-item">
                 <div className="stat-number">
-                  <Counter end={39} />
+                  <Counter end={58} />
                 </div>
 
                 <h6>Years of Experience</h6>
