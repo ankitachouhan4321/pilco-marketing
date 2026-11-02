@@ -197,7 +197,7 @@ const Home = () => {
                   <div className="category-img">
                     <img
                       src="/img/Plastic-Pallets/1.png"
-                      alt="Plastic Extrusion Plant"
+                      alt="Plastic Pallets"
                     />
 
                     {/* <div className="category-no">
@@ -213,7 +213,7 @@ const Home = () => {
 
                     <h4>Plastic Pallets</h4>
 
-                    <Link to="/plastic-pallets" className="category-link">
+                    <Link to="/plastic-pallets-manufacturer" className="category-link">
                       Explore Category
                       <i className="bi bi-arrow-up-right ms-2"></i>
                     </Link>
@@ -226,8 +226,8 @@ const Home = () => {
                 <div className="category-card">
                   <div className="category-img">
                     <img
-                      src="/img/Cable-Tray/1.png"
-                      alt="Pipe Making Plant"
+                      src="/img/racks/1.png"
+                      alt="Racks"
                     />
 
                     {/* <div className="category-no">
@@ -238,41 +238,100 @@ const Home = () => {
                   <div className="category-body">
                     {/* <span className="category-small">
                                             Pipe Machinery
+                                        </span> */}
+
+                    <h4>Racks</h4>
+
+                    <Link to="/racks-manufacturer" className="category-link">
+                      Explore Category
+                      <i className="bi bi-arrow-up-right ms-2"></i>
+                    </Link>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              {/* 1 */}
+              <SwiperSlide>
+                <div className="category-card">
+                  <div className="category-img">
+                    <img
+                      src="/img/Mezzanine-floors/1.png"
+                      alt="Mezzanine Floors"
+                    />
+
+                    {/* <div className="category-no">
+                                            01
+                                        </div> */}
+                  </div>
+
+                  <div className="category-body">
+                    {/* 
+                                        <span className="category-small">
+                                            Industrial Machinery
+                                        </span> */}
+
+                    <h4>Mezzanine Floors</h4>
+
+                    <Link to="/mezzanine-floors-manufacturer" className="category-link">
+                      Explore Category
+                      <i className="bi bi-arrow-up-right ms-2"></i>
+                    </Link>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              {/* 2 */}
+              <SwiperSlide>
+                <div className="category-card">
+                  <div className="category-img">
+                    <img
+                      src="/img/flc-boxes/1.png"
+                      alt="FLC Boxes"
+                    />
+
+                    {/* <div className="category-no">
+                                            02
+                                        </div> */}
+                  </div>
+
+                  <div className="category-body">
+                    {/* <span className="category-small">
+                                            Pipe Machinery
+                                        </span> */}
+
+                    <h4>FLC Boxes</h4>
+
+                    <Link to="/flc-boxes-manufacturer" className="category-link">
+                      Explore Category
+                      <i className="bi bi-arrow-up-right ms-2"></i>
+                    </Link>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              {/* 1 */}
+              <SwiperSlide>
+                <div className="category-card">
+                  <div className="category-img">
+                    <img
+                      src="/img/cable-trays/main-1.png"
+                      alt="Cable Trays"
+                    />
+
+                    {/* <div className="category-no">
+                                            01
+                                        </div> */}
+                  </div>
+
+                  <div className="category-body">
+                    {/* 
+                                        <span className="category-small">
+                                            Industrial Machinery
                                         </span> */}
 
                     <h4>Cable Trays</h4>
 
-                    <Link to="/cable-trays" className="category-link">
-                      Explore Category
-                      <i className="bi bi-arrow-up-right ms-2"></i>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
-
-              {/* 1 */}
-              <SwiperSlide>
-                <div className="category-card">
-                  <div className="category-img">
-                    <img
-                      src="/img/Plastic-Crates/1.png"
-                      alt="Plastic Extrusion Plant"
-                    />
-
-                    {/* <div className="category-no">
-                                            01
-                                        </div> */}
-                  </div>
-
-                  <div className="category-body">
-                    {/* 
-                                        <span className="category-small">
-                                            Industrial Machinery
-                                        </span> */}
-
-                    <h4>Plastic Crates</h4>
-
-                    <Link to="/plastic-crates" className="category-link">
+                    <Link to="/cable-trays-manufacturer" className="category-link">
                       Explore Category
                       <i className="bi bi-arrow-up-right ms-2"></i>
                     </Link>
@@ -285,8 +344,8 @@ const Home = () => {
                 <div className="category-card">
                   <div className="category-img">
                     <img
-                      src="/img/Warehouse-Racks/1.png"
-                      alt="Pipe Making Plant"
+                      src="/img/strut-channel/1.png"
+                      alt="Strut Channels"
                     />
 
                     {/* <div className="category-no">
@@ -299,9 +358,10 @@ const Home = () => {
                                             Pipe Machinery
                                         </span> */}
 
-                    <h4>Warehouse Racks</h4>
+                    <h4>Strut Channels
+</h4>
 
-                    <Link to="/warehouse-racks" className="category-link">
+                    <Link to="/strut-channels" className="category-link">
                       Explore Category
                       <i className="bi bi-arrow-up-right ms-2"></i>
                     </Link>
@@ -309,122 +369,7 @@ const Home = () => {
                 </div>
               </SwiperSlide>
 
-              {/* 1 */}
-              <SwiperSlide>
-                <div className="category-card">
-                  <div className="category-img">
-                    <img
-                      src="/img/Industrial-Storage-Crate/1.png"
-                      alt="Plastic Extrusion Plant"
-                    />
-
-                    {/* <div className="category-no">
-                                            01
-                                        </div> */}
-                  </div>
-
-                  <div className="category-body">
-                    {/* 
-                                        <span className="category-small">
-                                            Industrial Machinery
-                                        </span> */}
-
-                    <h4>Industrial Storage Crate</h4>
-
-                    <Link to="/industrial-storage-crates" className="category-link">
-                      Explore Category
-                      <i className="bi bi-arrow-up-right ms-2"></i>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
-
-              {/* 2 */}
-              <SwiperSlide>
-                <div className="category-card">
-                  <div className="category-img">
-                    <img
-                      src="/img/Industrial-Pallets/1.png"
-                      alt="Pipe Making Plant"
-                    />
-
-                    {/* <div className="category-no">
-                                            02
-                                        </div> */}
-                  </div>
-
-                  <div className="category-body">
-                    {/* <span className="category-small">
-                                            Pipe Machinery
-                                        </span> */}
-
-                    <h4>Industrial Pallets</h4>
-
-                    <Link to="/industrial-pallets" className="category-link">
-                      Explore Category
-                      <i className="bi bi-arrow-up-right ms-2"></i>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
-
-              {/* 2 */}
-              <SwiperSlide>
-                <div className="category-card">
-                  <div className="category-img">
-                    <img
-                      src="/img/Vegetable-Crate/1.png"
-                      alt="Pipe Making Plant"
-                    />
-
-                    {/* <div className="category-no">
-                                            02
-                                        </div> */}
-                  </div>
-
-                  <div className="category-body">
-                    {/* <span className="category-small">
-                                            Pipe Machinery
-                                        </span> */}
-
-                    <h4>Vegetable Crate</h4>
-
-                    <Link to="/vegetable-crates" className="category-link">
-                      Explore Category
-                      <i className="bi bi-arrow-up-right ms-2"></i>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
-
-              {/* 2 */}
-              <SwiperSlide>
-                <div className="category-card">
-                  <div className="category-img">
-                    <img
-                      src="/img/Storage-Racks/1.png"
-                      alt="Pipe Making Plant"
-                    />
-
-                    {/* <div className="category-no">
-                                            02
-                                        </div> */}
-                  </div>
-
-                  <div className="category-body">
-                    {/* <span className="category-small">
-                                            Pipe Machinery
-                                        </span> */}
-
-                    <h4>Storage Racks</h4>
-
-                    <Link to="/storage-racks" className="category-link">
-                      Explore Category
-                      <i className="bi bi-arrow-up-right ms-2"></i>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
+          
             </Swiper>
           </div>
         </div>
@@ -611,6 +556,7 @@ const Home = () => {
         </div>
       </div>
       {/* company-info end */}
+      
       {/* product-sec start */}
       <section id="product-sec" className="py-lg-5 py-3 mt-3 side-space">
         <div className="container-fluid py-lg-5 py-3 ">
@@ -668,9 +614,9 @@ const Home = () => {
                   </div>
 
                   <div className="product-content text-center">
-                    <h5>Plastic Pallets</h5>
+                    <h5>PIL-001 Plastic Pallet</h5>
 
-                    <Link to="/plastic-pallets" className="btn pilco-btn px-4 py-2">
+                    <Link to="/plastic-pallets-manufacturer" className="btn pilco-btn px-4 py-2">
                       View Products
                       <i className="bi bi-arrow-right ms-2"></i>
                     </Link>
@@ -682,13 +628,13 @@ const Home = () => {
               <SwiperSlide>
                 <div className="product-card">
                   <div className="product-img">
-                    <img src="/img/Cable-Tray/1.png" alt="PVC Pipe Plant" />
+                    <img src="/img/racks/1.png" alt="PVC Pipe Plant" />
                   </div>
 
                   <div className="product-content text-center">
-                    <h5>Cable Tray</h5>
+                    <h5>Pallet Racks</h5>
 
-                    <Link to="/cable-trays" className="btn pilco-btn px-4 py-2">
+                    <Link to="/racks-manufacturer" className="btn pilco-btn px-4 py-2">
                       View Products
                       <i className="bi bi-arrow-right ms-2"></i>
                     </Link>
@@ -701,15 +647,15 @@ const Home = () => {
                 <div className="product-card">
                   <div className="product-img">
                     <img
-                      src="/img/Plastic-Crates/1.png"
+                      src="/img/Mezzanine-floors/1.png"
                       alt="Plastic Dana Machine"
                     />
                   </div>
 
                   <div className="product-content text-center">
-                    <h5>Plastic Crates</h5>
+                    <h5>Mezzanine Floors</h5>
 
-                    <Link to="/plastic-crates" className="btn pilco-btn px-4 py-2">
+                    <Link to="/mezzanine-floors-manufacturer" className="btn pilco-btn px-4 py-2">
                       View Products
                       <i className="bi bi-arrow-right ms-2"></i>
                     </Link>
@@ -722,15 +668,15 @@ const Home = () => {
                 <div className="product-card">
                   <div className="product-img">
                     <img
-                      src="/img/Warehouse-Racks/1.png"
+                      src="/img/flc-boxes/1.png"
                       alt="Garden Pipe Plant"
                     />
                   </div>
 
                   <div className="product-content text-center">
-                    <h5>Warehouse Racks</h5>
+                    <h5>FLC Boxes</h5>
 
-                    <Link to="/warehouse-racks" className="btn pilco-btn px-4 py-2">
+                    <Link to="/flc-boxes-manufacturer" className="btn pilco-btn px-4 py-2">
                       View Products
                       <i className="bi bi-arrow-right ms-2"></i>
                     </Link>
@@ -742,36 +688,15 @@ const Home = () => {
                 <div className="product-card">
                   <div className="product-img">
                     <img
-                      src="/img/Industrial-Storage-Crate/1.png"
+                      src="/img/cable-trays/1.png"
                       alt="Garden Pipe Plant"
                     />
                   </div>
 
                   <div className="product-content text-center">
-                    <h5>Industrial Storage Crate</h5>
+                    <h5>Wire Mesh Cable Tray</h5>
 
-                    <Link to="/industrial-storage-crates" className="btn pilco-btn px-4 py-2">
-                      View Products
-                      <i className="bi bi-arrow-right ms-2"></i>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
-
-              {/* Product 4 */}
-              <SwiperSlide>
-                <div className="product-card">
-                  <div className="product-img">
-                    <img
-                      src="/img/Industrial-Pallets/1.png"
-                      alt="Garden Pipe Plant"
-                    />
-                  </div>
-
-                  <div className="product-content text-center">
-                    <h5>Industrial Pallets</h5>
-
-                    <Link to="/industrial-pallets" className="btn pilco-btn px-4 py-2">
+                    <Link to="/cable-trays-manufacturer" className="btn pilco-btn px-4 py-2">
                       View Products
                       <i className="bi bi-arrow-right ms-2"></i>
                     </Link>
@@ -784,15 +709,15 @@ const Home = () => {
                 <div className="product-card">
                   <div className="product-img">
                     <img
-                      src="/img/Vegetable-Crate/1.png"
+                      src="/img/strut-channel/1.png"
                       alt="Garden Pipe Plant"
                     />
                   </div>
 
                   <div className="product-content text-center">
-                    <h5>Vegetable Crate</h5>
+                    <h5>Strut Channels</h5>
 
-                    <Link to="/vegetable-crates" className="btn pilco-btn px-4 py-2">
+                    <Link to="/strut-channels" className="btn pilco-btn px-4 py-2">
                       View Products
                       <i className="bi bi-arrow-right ms-2"></i>
                     </Link>
@@ -800,26 +725,8 @@ const Home = () => {
                 </div>
               </SwiperSlide>
 
-              {/* Product 4 */}
-              <SwiperSlide>
-                <div className="product-card">
-                  <div className="product-img">
-                    <img
-                      src="/img/Storage-Racks/1.png"
-                      alt="Garden Pipe Plant"
-                    />
-                  </div>
+            
 
-                  <div className="product-content text-center">
-                    <h5>Storage Racks</h5>
-
-                    <Link to="/storage-racks" className="btn pilco-btn px-4 py-2">
-                      View Products
-                      <i className="bi bi-arrow-right ms-2"></i>
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
             </Swiper>
           </div>
         </div>
