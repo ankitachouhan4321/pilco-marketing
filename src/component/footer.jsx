@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import FloatingContact from './FloatingContact';
 
 const Footer = () => {
   return (
@@ -197,6 +198,8 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+
+      <FloatingContact />
     </>
   );
 }

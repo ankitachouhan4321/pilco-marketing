@@ -3345,3 +3345,174 @@ body {
 
 
 /* product-info end */
+
+
+
+/* Main fixed wrapper */
+.pilco-floating-wrapper {
+  position: fixed;
+  right: 25px;
+  bottom: 30px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 14px;
+}
+
+/* Up and down floating movement */
+.pilco-floating-motion {
+  animation: pilcoFloat 3s ease-in-out infinite;
+}
+
+@keyframes pilcoFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+/* Main button */
+.pilco-main-contact {
+  position: relative;
+  width: 62px;
+  height: 62px;
+  border: none;
+  border-radius: 50%;
+  background: var(--pilco-primary);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 6px 25px #004974b0;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.pilco-main-contact:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 35px #004974b0;;
+}
+
+.pilco-main-contact svg {
+  transition: transform 0.35s ease;
+}
+
+.pilco-main-contact.opened svg {
+  transform: rotate(45deg);
+}
+
+/* Pulsing glow */
+.pilco-pulse {
+  position: absolute;
+  inset: -7px;
+  border:var(--pilco-primary);
+  border-radius: 50%;
+  animation: pilcoPulse 2.2s ease-out infinite;
+  pointer-events: none;
+}
+
+@keyframes pilcoPulse {
+  0% {
+    transform: scale(0.85);
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: scale(1.35);
+    opacity: 0;
+  }
+}
+
+/* Expandable options */
+.pilco-contact-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-end;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(15px) scale(0.95);
+  pointer-events: none;
+  transition: all 0.35s ease;
+}
+
+.pilco-contact-options.active {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+/* Individual buttons */
+.pilco-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 11px 13px 11px 18px;
+  border-radius: 30px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.18);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pilco-contact-item:hover {
+  transform: translateX(-6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+
+.pilco-contact-item.whatsapp {
+  background: #25d366;
+}
+
+.pilco-contact-item.call {
+  background: #1769aa;
+}
+
+.pilco-contact-item.enquiry {
+  background: #d32f2f;
+}
+
+.pilco-contact-item svg {
+  flex-shrink: 0;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .pilco-floating-wrapper {
+    right: 15px;
+    bottom: 20px;
+  }
+
+  .pilco-main-contact {
+    width: 54px;
+    height: 54px;
+  }
+
+  .pilco-contact-item {
+    font-size: 12px;
+    padding: 10px 13px;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .pilco-floating-motion,
+  .pilco-pulse {
+    animation: none;
+  }
+
+  .pilco-contact-options,
+  .pilco-main-contact,
+  .pilco-main-contact svg,
+  .pilco-contact-item {
+    transition: none;
+  }
+}

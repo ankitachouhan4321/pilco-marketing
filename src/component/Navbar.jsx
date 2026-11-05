@@ -67,6 +67,13 @@ const Navbar = () => {
                 <i className="bi bi-telephone-fill me-2"></i>
                 +91 98100 74596
               </a>
+              <a
+                href="tel:+919711481181"
+                className="text-white text-decoration-none"
+              >
+                <i className="bi bi-telephone-fill me-2"></i>
+                +91 97114 81181
+              </a>
             </div>
           </div>
         </div>
