@@ -332,6 +332,39 @@ body {
     width: 100%;
   }
 }
+
+/* ==============================
+   FIX PRODUCTS MEGA DROPDOWN
+================================ */
+
+.pilco-mega-dropdown {
+  position: static !important;
+}
+
+/* Hidden by default */
+.pilco-mega-menu {
+  display: none;
+}
+
+/* Open dropdown on click */
+.pilco-mega-menu.show {
+  display: block !important;
+}
+
+/* Ensure dropdown appears above page content */
+.pilco-mega-menu {
+  z-index: 1050;
+}
+
+/* Mobile dropdown positioning */
+@media (max-width: 991px) {
+  .pilco-mega-menu.show {
+    display: block !important;
+    position: static !important;
+    transform: none !important;
+    width: 100%;
+  }
+}
 /* header start end */
 
 /* pilco-hero start */
@@ -432,14 +465,14 @@ body {
     background-position: 65% center;
   }
 
-  .pilco-hero-overlay {
+  /* .pilco-hero-overlay {
     background: linear-gradient(
       90deg,
       rgba(6, 28, 40, 0.94) 0%,
       rgba(6, 28, 40, 0.82) 55%,
       rgba(6, 28, 40, 0.48) 100%
     );
-  }
+  } */
 }
 
 @media (max-width: 767px) {
@@ -448,9 +481,9 @@ body {
     background-position: 68% center;
   }
 
-  .pilco-hero-overlay {
+  /* .pilco-hero-overlay {
     background: rgba(5, 30, 41, 0.82);
-  }
+  } */
 
   .pilco-hero-content {
     text-align: left;

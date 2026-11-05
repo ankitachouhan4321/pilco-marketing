@@ -1,10 +1,45 @@
-import react from 'react'
-import { Link } from 'react-router-dom'
 
+import React, { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import Collapse from "bootstrap/js/dist/collapse";
 
-import React from 'react'
 
 const Navbar = () => {
+
+  const location = useLocation();
+
+  const [productsOpen, setProductsOpen] = useState(false);
+
+  useEffect(() => {
+    setProductsOpen(false);
+
+    const navbar = document.getElementById("pilcoNavbar");
+
+    if (navbar && window.innerWidth < 992) {
+      Collapse.getOrCreateInstance(navbar, {
+        toggle: false,
+      }).hide();
+    }
+  }, [location.pathname, location.search, location.hash]);
+
+  const handleNavClick = () => {
+    // Close Products Dropdown
+    setProductsOpen(false);
+
+    // Close Mobile Navbar
+    const navbar = document.getElementById("pilcoNavbar");
+
+    if (navbar && window.innerWidth < 992) {
+      Collapse.getOrCreateInstance(navbar, {
+        toggle: false,
+      }).hide();
+    }
+  };
+
+  const toggleProducts = () => {
+    setProductsOpen((prev) => !prev);
+  };
+
   return (
     <header>
       {/* Top Bar */}
@@ -69,13 +104,13 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="pilcoNavbar">
             <ul className="navbar-nav ms-auto align-items-lg-center gap-lg-2">
               <li className="nav-item">
-                <Link className="nav-link px-lg-3" to="/">
+                <Link className="nav-link px-lg-3" to="/" onClick={handleNavClick}>
                   Home
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link px-lg-3" to="/about">
+                <Link className="nav-link px-lg-3" to="/about" onClick={handleNavClick}>
                   About Us
                 </Link>
               </li>
@@ -84,16 +119,21 @@ const Navbar = () => {
               {/* Products Mega Dropdown */}
               <li className="nav-item dropdown pilco-mega-dropdown">
                 <button
-                  className="nav-link dropdown-toggle px-lg-3 bg-transparent border-0"
+                  className={`nav-link dropdown-toggle px-lg-3 bg-transparent border-0 ${productsOpen ? "show" : ""
+                    }`}
                   type="button"
-                  data-bs-toggle="dropdown"
-                  data-bs-auto-close="outside"
-                  aria-expanded="false"
+                  onClick={toggleProducts}
+                  aria-expanded={productsOpen}
+                  aria-controls="pilcoProductsMenu"
                 >
                   Our Products
                 </button>
 
-                <div className="dropdown-menu pilco-mega-menu border-0 shadow-lg">
+                <div
+                  id="pilcoProductsMenu"
+                  className={`dropdown-menu pilco-mega-menu border-0 shadow-lg ${productsOpen ? "show" : ""
+                    }`}
+                >
                   <div className="pilco-mega-menu-inner">
 
                     <div className="pilco-mega-grid">
@@ -135,12 +175,6 @@ const Navbar = () => {
                         { name: "Cable Trays", link: "/cable-trays-manufacturer" },
                         { name: "Strut Channels", link: "/strut-channels" },
 
-   
-
-                        
-
-
-
 
                         // Add remaining category names and links here
                         // { name: "Category Name", link: "/category-url" },
@@ -149,7 +183,7 @@ const Navbar = () => {
                         <Link
                           key={index}
                           className="pilco-mega-item"
-                          to={item.link}
+                          to={item.link} onClick={handleNavClick}
                         >
                           <span>{item.name}</span>
 
@@ -169,14 +203,14 @@ const Navbar = () => {
               </li> */}
 
               <li className="nav-item">
-                <Link className="nav-link px-lg-3" to="/contact">
+                <Link className="nav-link px-lg-3" to="/contact" onClick={handleNavClick}>
                   Contact Us
                 </Link>
               </li>
 
               {/* CTA */}
               <li className="nav-item ms-lg-3 mt-3 mt-lg-0">
-                <Link className="btn pilco-btn px-4 py-3" to="/contact">
+                <Link className="btn pilco-btn px-4 py-3" to="/contact" onClick={handleNavClick}>
                   GET IN TOUCH
                   <i className="bi bi-arrow-right ms-2"></i>
                 </Link>
