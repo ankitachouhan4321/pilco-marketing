@@ -2613,7 +2613,7 @@ body {
   isolation: isolate;
   padding: 85px 0;
   overflow: hidden;
-  background-image: url("img/state.jpg");
+  background-image: url("/img/state.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
